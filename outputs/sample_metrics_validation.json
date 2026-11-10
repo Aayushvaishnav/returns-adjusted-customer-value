@@ -1,0 +1,201 @@
+{
+  "status": "Passed",
+  "scope": "sample",
+  "verified_at_utc": "2026-10-23T04:20:20.605035+00:00",
+  "source_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "metric_contract_version": 2,
+  "summary_key_and_group_reconciliation": true,
+  "independent_raw_customer_metrics_match": true,
+  "independent_raw_cohorts_match": true,
+  "observed_end": "2010-12-01T12:43:00",
+  "raw_rows_independently_checked": 2000,
+  "financial_scopes": {
+    "all": {
+      "raw_rows": 2000,
+      "canonical_rows": 2000,
+      "copy_rows": 0,
+      "raw_signed_gbp": "45968.980000",
+      "canonical_signed_gbp": "45968.980000",
+      "copy_signed_gbp": "0",
+      "gross_gbp": "46259.390000",
+      "credit_magnitude_gbp": "727.330000",
+      "net_gbp": "45532.060000",
+      "canonical_excluded_signed_gbp": "436.920000"
+    },
+    "UK": {
+      "raw_rows": 1850,
+      "canonical_rows": 1850,
+      "copy_rows": 0,
+      "raw_signed_gbp": "42207.370000",
+      "canonical_signed_gbp": "42207.370000",
+      "copy_signed_gbp": "0",
+      "gross_gbp": "42797.730000",
+      "credit_magnitude_gbp": "525.280000",
+      "net_gbp": "42272.450000",
+      "canonical_excluded_signed_gbp": "-65.080000"
+    },
+    "France": {
+      "raw_rows": 40,
+      "canonical_rows": 40,
+      "copy_rows": 0,
+      "raw_signed_gbp": "1276.210000",
+      "canonical_signed_gbp": "1276.210000",
+      "copy_signed_gbp": "0",
+      "gross_gbp": "1174.160000",
+      "credit_magnitude_gbp": "5.950000",
+      "net_gbp": "1168.210000",
+      "canonical_excluded_signed_gbp": "108.000000"
+    },
+    "Dec2010": {
+      "raw_rows": 1000,
+      "canonical_rows": 1000,
+      "copy_rows": 0,
+      "raw_signed_gbp": "24506.250000",
+      "canonical_signed_gbp": "24506.250000",
+      "copy_signed_gbp": "0",
+      "gross_gbp": "24636.380000",
+      "credit_magnitude_gbp": "171.630000",
+      "net_gbp": "24464.750000",
+      "canonical_excluded_signed_gbp": "41.500000"
+    }
+  },
+  "table_counts": {
+    "invoice_summary": 126,
+    "customer_month_summary": 99,
+    "product_summary": 1279,
+    "positive_invoices": 99,
+    "customer_snapshot": 90,
+    "customer_followup": 78,
+    "segment_migration": 1,
+    "cohort_activity": 14
+  },
+  "customer_reference": {
+    "observed_end": "2010-12-01T12:43:00",
+    "customer_count": 90,
+    "positive_invoice_count": 99,
+    "followup_count": 78,
+    "scopes": {
+      "ALL": {
+        "state": "populated",
+        "customer_count": 90,
+        "gross_gbp": "46257.99",
+        "credit_magnitude_gbp": "727.33",
+        "net_gbp": "45530.66",
+        "purchase_history": 78,
+        "credit_only": 12,
+        "complete_followup": 35,
+        "repeat_customers": 3,
+        "repeat_ratio": "0.08571428571428571428571428571"
+      },
+      "United Kingdom": {
+        "state": "populated",
+        "customer_count": 71,
+        "gross_gbp": "42796.33",
+        "credit_magnitude_gbp": "191.90",
+        "net_gbp": "42604.43",
+        "purchase_history": 71,
+        "credit_only": 0,
+        "complete_followup": 31,
+        "repeat_customers": 3,
+        "repeat_ratio": "0.09677419354838709677419354839"
+      },
+      "France": {
+        "state": "populated",
+        "customer_count": 2,
+        "gross_gbp": "1174.16",
+        "credit_magnitude_gbp": "0",
+        "net_gbp": "1174.16",
+        "purchase_history": 2,
+        "credit_only": 0,
+        "complete_followup": 1,
+        "repeat_customers": 0,
+        "repeat_ratio": "0"
+      }
+    },
+    "transaction_coverage_scopes": {
+      "all": {
+        "gross_gbp": "46259.39",
+        "identified_gross_gbp": "46257.99",
+        "identified_gross_coverage": "0.9999697358741652235362377238"
+      },
+      "UK": {
+        "gross_gbp": "42797.73",
+        "identified_gross_gbp": "42796.33",
+        "identified_gross_coverage": "0.9999672879846664764696632275"
+      },
+      "Dec2010": {
+        "gross_gbp": "24636.38",
+        "identified_gross_gbp": "24636.38",
+        "identified_gross_coverage": "1"
+      },
+      "France": {
+        "gross_gbp": "1174.16",
+        "identified_gross_gbp": "1174.16",
+        "identified_gross_coverage": "1"
+      }
+    }
+  },
+  "cohort_reference": {
+    "cohort_count": 2,
+    "cohort_cells_checked": 14,
+    "incomplete_cells": 2,
+    "migration_cells_checked": 1,
+    "migration_provenance": "customer_snapshot; segment assignments require separate raw validation"
+  },
+  "diagnostics": {
+    "positive_invoice_multi_timestamp_tokens": 0,
+    "customers_with_simultaneous_first_invoices": 2,
+    "purchase_customers_negative_net": 0,
+    "incomplete_followup_customers": 43
+  },
+  "hashes": {
+    "python/build_excel_skeleton.py": "3a4ae81676aeffa15d40b09fa3c21739c7fc3997980577801e0172e5120d6444",
+    "python/build_metrics.py": "67a87e17fb1b853ea207d7a31b0e7e16196bfd30ded7a307074f64b7452466f1",
+    "python/cohort_reference.py": "5802ce9789f1d68dba330805c58ae9991bd4035d0940c84801925aae919c5adc",
+    "python/customers.py": "736735ab9813418b2209786ba40f68bf92a3db1f6c0cf78421faeceb6bb78f62",
+    "python/customer_reference.py": "452ae9d54a1d2ff601e3c4905741f8f770d6b407827ed6b00847129db79985e1",
+    "python/import_source.py": "ab24fc4cda1fcce7f735fe9d99884a4d6820c4433aae54a5a17f5f5695fa15ae",
+    "python/preparation_reference.py": "66e6e6c1a880bbd25864cd5ef8ee4688895bb3959ed5dbf1cb3b8766d2c25b42",
+    "python/prepare.py": "a4ca140b002e977b05310054982e16e33cff20e08a718e841c5221e30ae1c9a7",
+    "python/review_overlap.py": "babca9911288f996f17ae9732447804ea02b6d4be7fa99797609bcab7c20d6fc",
+    "python/source.py": "1392362baac9bee88bf613fac0d9cd2f842c397e108d0cf00e7f09f7be64cec9",
+    "python/summaries.py": "07f6c2a3f0f6486552145c78e9d4a539965c71a78caff3035f0335e4ce3a55b2",
+    "python/verify_source.py": "827e737c0914e40580d00cb4bda29cfe3c2481948ea276637a8628a5ef8ffb4a",
+    "sql/build_customers.sql": "727f85d95c8dacd7c956ab7f166e7adc5e71bcdf1b51b61a2595e1950ee30c95",
+    "sql/build_summaries.sql": "dbeda4330740f4fcb781687c001601f72be3b0f125d6c5c18219a510dc655365",
+    "sql/prepare_lines.sql": "fbc0462e83b51e8c4a725747cb12db320c0e3148a39259c596f24f3357a4816e",
+    "sql/source_profile.sql": "c4d0f0cc4548e1d1d0f699cab3e42d434d96b3cca82c0d90870a696dfc9eb976",
+    "tests/test_customers.py": "878f8b3a8d357311fe601685b5969f5d5bef6fe6e5cbd6310e9ba5399e732b04",
+    "tests/test_excel_skeleton.py": "dfea2ff7b72e69ada603cbfc285eee818f7caecd01123a28bdf7da9898a6f5ae",
+    "tests/test_preparation.py": "50c8e4e79caafd96198c61ecd9b6d809b633097aa3f1e9424b943c631788b909",
+    "tests/test_source_import.py": "da5e656a1ac7d7a7d98eeaa92e8db49197cc07c0d3db36b9f4bb5551f0420fc0",
+    "tests/test_source_verification.py": "9979fc952a8e4ac0d9af196028260e1d16a3a91a42dd5249d3650676344fa94a",
+    "tests/test_summaries.py": "4039c804eccfc615141b59722b751a2d384738378a6cc34055fb22ab9ec71721",
+    "config/source.json": "d2d3107e2e18bb513fc4d8780d4de9c781883744e94c30d841a1081c47c38942",
+    "config/metrics.json": "69f7d85924f2fe9423dd354fd81e17e598682f7fcf5f1dcb293efa7b8300353f",
+    "config/exceptional_codes.csv": "931c6835e8ebaae0b70d73379500fb7978573479c171fa517fb07fe18e8035a6",
+    "outputs/sample_source_quality.json": "a5f004ad718ce91c12fccfd77388715f07460d0ceae16e0f76340a0c7908b49e",
+    "data/processed/sample_metrics/invoice_summary.csv": "efcd476ad7dbf8af06d427409b7b5678dc9da0d006feeee8961154085994f7e8",
+    "data/processed/sample_metrics/customer_month_summary.csv": "eaf4e71a70109108937b409eb4351971c7eadaca3e5c1c6f5ab81cbbc709b77f",
+    "data/processed/sample_metrics/product_summary.csv": "e33be401875fb0bd170854a3a6f410bb4fc3b0c45ea1f6d8463b859c6ccaffff",
+    "data/processed/sample_metrics/positive_invoices.csv": "2cf09c9d244b4f19c52649ce48945b516cfa3b28f88590010fb28356bbfc9b6a",
+    "data/processed/sample_metrics/customer_snapshot.csv": "f0408013f5ad505954baa5f4921be7bc79cac806dd74f623fb7fbed5ca38fd3c",
+    "data/processed/sample_metrics/customer_followup.csv": "095760ddad5dcf831aee1c4f2a56008d31528fba2895e3f369a66a6f8f828251",
+    "data/processed/sample_metrics/segment_migration.csv": "dd1a6c6acad3ebe247f6f3d30a9d86dbe6c877e94e2f37c7519f31dbff499114",
+    "data/processed/sample_metrics/cohort_activity.csv": "758a5047d7c4d206d908f16de4e58a8ae5888c8b9051ecf5185080e12ceb3790",
+    "outputs/sample_segment_migration.csv": "dd1a6c6acad3ebe247f6f3d30a9d86dbe6c877e94e2f37c7519f31dbff499114",
+    "outputs/sample_cohort_activity.csv": "758a5047d7c4d206d908f16de4e58a8ae5888c8b9051ecf5185080e12ceb3790",
+    "outputs/sample_repeat_cohorts.csv": "6586ef56ca376f8e9db43ecc428e47fb2244465384e9bc8cbb69c6aafbdc7bb1",
+    "outputs/sample_monthly_financials.csv": "709d249c4894bc14cf6aeaa10ff12a818a8024b90fcbd18f286384375963a3eb"
+  },
+  "limitations": [
+    "Development validation only; Gate D has not authorized final CV measurements.",
+    "Assigned-country customer filters differ from transaction-country financial filters.",
+    "RFM score bins and segment sum boundaries are analyst assumptions; sensitivity is pending.",
+    "First observed purchase is left censored; full-period RFM has unequal customer exposure.",
+    "Recorded credits are unmatched and are not confirmed physical returns; net value is not profit or predicted LTV.",
+    "Partial/future cohort months are unavailable; incomplete 90-day follow-up has no repeat outcome.",
+    "Sample scope is not representative and derives its own source end; use full scope for analysis.",
+    "Excel connections, formulas, refresh and rendered interactions are not validated by this build."
+  ]
+}

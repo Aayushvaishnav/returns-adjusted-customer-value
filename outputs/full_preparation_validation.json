@@ -1,0 +1,83 @@
+{
+  "status": "Passed",
+  "scope": "full",
+  "verified_at_utc": "2026-10-22T19:33:43.400979+00:00",
+  "source_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "raw_digest_verified": true,
+  "independent_raw_reference_matches": true,
+  "canonical_mapping_rows_checked": 1067371,
+  "independent_normalization_rows_checked": 1067371,
+  "independently_checked_customer_state_counts": {
+    "eligible": 824364,
+    "unidentified": 243007
+  },
+  "hashes": {
+    "python/prepare.py": "a4ca140b002e977b05310054982e16e33cff20e08a718e841c5221e30ae1c9a7",
+    "python/preparation_reference.py": "66e6e6c1a880bbd25864cd5ef8ee4688895bb3959ed5dbf1cb3b8766d2c25b42",
+    "python/source.py": "1392362baac9bee88bf613fac0d9cd2f842c397e108d0cf00e7f09f7be64cec9",
+    "sql/prepare_lines.sql": "fbc0462e83b51e8c4a725747cb12db320c0e3148a39259c596f24f3357a4816e",
+    "config/source.json": "d2d3107e2e18bb513fc4d8780d4de9c781883744e94c30d841a1081c47c38942",
+    "config/metrics.json": "0f6eddac2e110d99c892bf3a6b3105c90a0351c688e5bea5ecf880045d07d2e4",
+    "config/exceptional_codes.csv": "931c6835e8ebaae0b70d73379500fb7978573479c171fa517fb07fe18e8035a6",
+    "outputs/full_classification.csv": "9590e03cd0ef9273db1ebfbbc140195fce15bb3fe2fb84c62d1ccdf9871119a6",
+    "outputs/full_financial_reconciliation.csv": "98ecf954f254e0b17a2784675cbc17a356c1dd653dda55f062ea84db931b6c43",
+    "outputs/full_source_quality.json": "fed6fe11479b4f1d4c0d6b11e22b64b6f8782a1b337d404e5346a9749378c575",
+    "data/processed/r2_full.duckdb": "976214c1ed7a15d70025e0fd04f5b727a04ecdf5cbe7b0af9f935f18a2e48568"
+  },
+  "row_and_money_conservation": true,
+  "scopes": {
+    "all": {
+      "raw_rows": 1067371,
+      "canonical_rows": 1044848,
+      "copy_rows": 22523,
+      "raw_signed_gbp": "19287250.568000",
+      "canonical_signed_gbp": "18909762.118000",
+      "copy_signed_gbp": "377488.450000",
+      "gross_gbp": "19700954.457000",
+      "credit_magnitude_gbp": "719692.940000",
+      "net_gbp": "18981261.517000",
+      "canonical_excluded_signed_gbp": "-71499.399000"
+    },
+    "UK": {
+      "raw_rows": 981330,
+      "canonical_rows": 959983,
+      "copy_rows": 21347,
+      "raw_signed_gbp": "16382583.897000",
+      "canonical_signed_gbp": "16038601.657000",
+      "copy_signed_gbp": "343982.240000",
+      "gross_gbp": "16856330.956000",
+      "credit_magnitude_gbp": "635249.660000",
+      "net_gbp": "16221081.296000",
+      "canonical_excluded_signed_gbp": "-182479.639000"
+    },
+    "France": {
+      "raw_rows": 14330,
+      "canonical_rows": 14059,
+      "copy_rows": 271,
+      "raw_signed_gbp": "328191.800000",
+      "canonical_signed_gbp": "321928.530000",
+      "copy_signed_gbp": "6263.270000",
+      "gross_gbp": "311288.380000",
+      "credit_magnitude_gbp": "17662.040000",
+      "net_gbp": "293626.340000",
+      "canonical_excluded_signed_gbp": "28302.190000"
+    },
+    "Dec2010": {
+      "raw_rows": 65004,
+      "canonical_rows": 42481,
+      "copy_rows": 22523,
+      "raw_signed_gbp": "1126445.470000",
+      "canonical_signed_gbp": "748957.020000",
+      "copy_signed_gbp": "377488.450000",
+      "gross_gbp": "777931.770000",
+      "credit_magnitude_gbp": "17607.860000",
+      "net_gbp": "760323.910000",
+      "canonical_excluded_signed_gbp": "-11366.890000"
+    }
+  },
+  "limitations": [
+    "Recorded credits are not confirmed physical returns; no original-invoice linkage.",
+    "Unknown countries and unidentified/invalid customers retain financial values; customer eligibility is separate.",
+    "Sample is first configured rows per sheet, not representative."
+  ]
+}

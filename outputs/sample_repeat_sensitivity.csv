@@ -1,0 +1,19 @@
+scope,observed_customers,complete_customers,incomplete_customers,repeat_customers,repeat_share,policy,excluded_observed_customers,excluded_complete_customers,excluded_incomplete_customers,excluded_repeat_customers,repeat_share_change_pp
+ALL,78,35,43,3,0.08571428571428572,all_eligible,0,0,0,0,0.0
+ALL,35,35,0,3,0.08571428571428572,complete_cohorts_only,43,0,43,0,0.0
+ALL,76,35,41,3,0.08571428571428572,exclude_any_invoice_ambiguity,2,0,2,0,0.0
+ALL,78,35,43,3,0.08571428571428572,exclude_multi_timestamp_customers,0,0,0,0,0.0
+ALL,76,35,41,3,0.08571428571428572,exclude_simultaneous_first,2,0,2,0,0.0
+ALL,43,0,43,0,,exclude_source_start_cohort,35,35,0,3,
+France,2,1,1,0,0.0,all_eligible,0,0,0,0,0.0
+France,1,1,0,0,0.0,complete_cohorts_only,1,0,1,0,0.0
+France,2,1,1,0,0.0,exclude_any_invoice_ambiguity,0,0,0,0,0.0
+France,2,1,1,0,0.0,exclude_multi_timestamp_customers,0,0,0,0,0.0
+France,2,1,1,0,0.0,exclude_simultaneous_first,0,0,0,0,0.0
+France,1,0,1,0,,exclude_source_start_cohort,1,1,0,0,
+United Kingdom,71,31,40,3,0.0967741935483871,all_eligible,0,0,0,0,0.0
+United Kingdom,31,31,0,3,0.0967741935483871,complete_cohorts_only,40,0,40,0,0.0
+United Kingdom,69,31,38,3,0.0967741935483871,exclude_any_invoice_ambiguity,2,0,2,0,0.0
+United Kingdom,71,31,40,3,0.0967741935483871,exclude_multi_timestamp_customers,0,0,0,0,0.0
+United Kingdom,69,31,38,3,0.0967741935483871,exclude_simultaneous_first,2,0,2,0,0.0
+United Kingdom,40,0,40,0,,exclude_source_start_cohort,31,31,0,3,

@@ -1,0 +1,33 @@
+{
+  "status": "Passed",
+  "verified_at_utc": "2026-10-22T19:23:48.463993+00:00",
+  "source_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "shared_invoice_tokens": 1088,
+  "unmatched_occurrences_within_shared_invoices": {
+    "Year 2009-2010": 0,
+    "Year 2010-2011": 0
+  },
+  "shared_invoice_population_by_sheet": [
+    {
+      "source_sheet": "Year 2009-2010",
+      "rows": 22523,
+      "first_timestamp": "2010-12-01 08:26:00",
+      "last_timestamp": "2010-12-09 20:01:00",
+      "signed_value_gbp": "377488.450000"
+    },
+    {
+      "source_sheet": "Year 2010-2011",
+      "rows": 22523,
+      "first_timestamp": "2010-12-01 08:26:00",
+      "last_timestamp": "2010-12-09 20:01:00",
+      "signed_value_gbp": "377488.450000"
+    }
+  ],
+  "comparison": "EXCEPT ALL across all eight raw fields in both directions; multiplicities preserved",
+  "selected_policy": "For each full raw record plus within-sheet occurrence number, prefer the later configured worksheet; retain all unmatched and within-sheet occurrences.",
+  "limitations": [
+    "This is a cross-worksheet artifact-copy policy; it does not prove within-sheet repeats are errors.",
+    "Original source rows and canonical-copy mappings must be retained by preparation.",
+    "Report raw population, canonical population and removed-copy financial totals separately."
+  ]
+}

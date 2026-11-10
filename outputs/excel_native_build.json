@@ -1,0 +1,113 @@
+﻿{
+    "status":  "passed",
+    "started_utc":  "2026-10-23T05:16:05.4567155Z",
+    "input":  "C:/Users/Aayush/my_files/da_projects/projects/r2-returns-adjusted-customer-value/reports/excel/R2_review_build_v4.xlsx",
+    "output":  "C:/Users/Aayush/my_files/da_projects/projects/r2-returns-adjusted-customer-value/reports/excel/R2_review_v4.xlsx",
+    "imports":  [
+                    {
+                        "query":  "R2_monthly_financials",
+                        "table":  "tblFinancial",
+                        "rows":  594,
+                        "file":  "monthly_financials.csv"
+                    },
+                    {
+                        "query":  "R2_monthly_identification",
+                        "table":  "tblIdentification",
+                        "rows":  655,
+                        "file":  "monthly_identification.csv"
+                    },
+                    {
+                        "query":  "R2_migration_sensitivity",
+                        "table":  "tblMigration",
+                        "rows":  243,
+                        "file":  "migration_sensitivity.csv"
+                    },
+                    {
+                        "query":  "R2_cohort_review",
+                        "table":  "tblRepeat",
+                        "rows":  75,
+                        "file":  "cohort_review.csv"
+                    },
+                    {
+                        "query":  "R2_cohort_activity",
+                        "table":  "tblActivity",
+                        "rows":  325,
+                        "file":  "cohort_activity.csv"
+                    },
+                    {
+                        "query":  "R2_threshold_summary",
+                        "table":  "tblThreshold",
+                        "rows":  9,
+                        "file":  "threshold_summary.csv"
+                    },
+                    {
+                        "query":  "R2_repeat_sensitivity",
+                        "table":  "tblPolicy",
+                        "rows":  18,
+                        "file":  "repeat_sensitivity.csv"
+                    },
+                    {
+                        "query":  "R2_customer_stability",
+                        "table":  "tblStability",
+                        "rows":  3,
+                        "file":  "customer_stability.csv"
+                    },
+                    {
+                        "query":  "R2_review_support",
+                        "table":  "tblSupport",
+                        "rows":  27,
+                        "file":  "review_support.csv"
+                    }
+                ],
+    "pivots":  [
+                   {
+                       "sheet":  "Pivot_Financial",
+                       "name":  "pvttblFinancial",
+                       "source":  "tblFinancial"
+                   },
+                   {
+                       "sheet":  "Pivot_Migration",
+                       "name":  "pvttblMigrationAudit",
+                       "source":  "tblMigrationAudit"
+                   },
+                   {
+                       "sheet":  "Pivot_Repeat",
+                       "name":  "pvttblRepeatAudit",
+                       "source":  "tblRepeatAudit"
+                   }
+               ],
+    "pdfs":  [
+                 {
+                     "sheet":  "Value_Overview",
+                     "status":  "exported",
+                     "path":  "C:\\Users\\Aayush\\my_files\\da_projects\\projects\\r2-returns-adjusted-customer-value\\reports\\excel\\preview\\Value_Overview.pdf"
+                 },
+                 {
+                     "sheet":  "Segment_Migration",
+                     "status":  "exported",
+                     "path":  "C:\\Users\\Aayush\\my_files\\da_projects\\projects\\r2-returns-adjusted-customer-value\\reports\\excel\\preview\\Segment_Migration.pdf"
+                 },
+                 {
+                     "sheet":  "Cohorts",
+                     "status":  "exported",
+                     "path":  "C:\\Users\\Aayush\\my_files\\da_projects\\projects\\r2-returns-adjusted-customer-value\\reports\\excel\\preview\\Cohorts.pdf"
+                 },
+                 {
+                     "sheet":  "Review_Actions",
+                     "status":  "exported",
+                     "path":  "C:\\Users\\Aayush\\my_files\\da_projects\\projects\\r2-returns-adjusted-customer-value\\reports\\excel\\preview\\Review_Actions.pdf"
+                 }
+             ],
+    "documentation":  [
+                          "https://learn.microsoft.com/en-us/office/vba/api/excel.queries.add",
+                          "https://learn.microsoft.com/en-us/office/vba/api/excel.listobjects.add",
+                          "https://learn.microsoft.com/en-us/office/vba/api/excel.pivotcaches.create",
+                          "https://learn.microsoft.com/en-us/office/vba/api/excel.slicercaches.add"
+                      ],
+    "excel_version":  "16.0",
+    "excel_build":  20430,
+    "query_count":  9,
+    "slicer_count":  2,
+    "workbook_sha256":  "133268bc10dec85cfc38ef820985dd824d55d25a043d437a638387124b4a8d2f",
+    "finished_utc":  "2026-10-23T05:16:32.4454199Z"
+}

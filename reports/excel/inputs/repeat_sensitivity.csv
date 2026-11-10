@@ -1,0 +1,19 @@
+scope,observed_customers,complete_customers,incomplete_customers,repeat_customers,repeat_share,policy,excluded_observed_customers,excluded_complete_customers,excluded_incomplete_customers,excluded_repeat_customers,repeat_share_change_pp
+ALL,5852,5256,596,2445,0.4651826484018265,all_eligible,0,0,0,0,0.0
+ALL,5224,5224,0,2423,0.4638208269525268,complete_cohorts_only,628,32,596,22,-0.13618214492996938
+ALL,5782,5189,593,2396,0.46174600115629216,exclude_any_invoice_ambiguity,70,67,3,49,-0.343664724553433
+ALL,5791,5195,596,2400,0.4619826756496631,exclude_multi_timestamp_customers,61,61,0,45,-0.31999727521633825
+ALL,5843,5250,593,2441,0.46495238095238095,exclude_simultaneous_first,9,6,3,4,-0.023026744944554256
+ALL,4901,4305,596,1866,0.43344947735191636,exclude_source_start_cohort,951,951,0,579,-3.1733171049910136
+France,93,76,17,40,0.5263157894736842,all_eligible,0,0,0,0,0.0
+France,75,75,0,39,0.52,complete_cohorts_only,18,1,17,1,-0.6315789473684164
+France,92,75,17,39,0.52,exclude_any_invoice_ambiguity,1,1,0,1,-0.6315789473684164
+France,92,75,17,39,0.52,exclude_multi_timestamp_customers,1,1,0,1,-0.6315789473684164
+France,93,76,17,40,0.5263157894736842,exclude_simultaneous_first,0,0,0,0,0.0
+France,83,66,17,32,0.48484848484848486,exclude_source_start_cohort,10,10,0,8,-4.1467304625199315
+United Kingdom,5334,4799,535,2235,0.4657220254219629,all_eligible,0,0,0,0,0.0
+United Kingdom,4773,4773,0,2218,0.4646972553949298,complete_cohorts_only,561,26,535,17,-0.10247700270331062
+United Kingdom,5271,4739,532,2192,0.46254484068368856,exclude_any_invoice_ambiguity,63,60,3,43,-0.317718473827433
+United Kingdom,5280,4745,535,2196,0.46280295047418335,exclude_multi_timestamp_customers,54,54,0,39,-0.2919074947779543
+United Kingdom,5325,4793,532,2231,0.465470477780096,exclude_simultaneous_first,9,6,3,4,-0.02515476418669116
+United Kingdom,4432,3897,535,1685,0.4323838850397742,exclude_source_start_cohort,902,902,0,550,-3.3338140382188683

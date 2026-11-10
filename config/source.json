@@ -1,0 +1,8 @@
+{
+  "source_path": "../../online_retail/online_retail_II.xlsx",
+  "worksheets": ["Year 2009-2010", "Year 2010-2011"],
+  "headers": ["Invoice", "StockCode", "Description", "Quantity", "InvoiceDate", "Price", "Customer ID", "Country"],
+  "sample_rows_per_sheet": 1000,
+  "official_url": "https://archive.ics.uci.edu/dataset/502/online+retail+ii",
+  "official_archive_url": "https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip"
+}

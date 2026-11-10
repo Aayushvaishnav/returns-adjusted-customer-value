@@ -1,0 +1,244 @@
+scope,scenario,multiplier,minimum_customers,gross_segment,net_segment,customers,gross_segment_customers,gross_row_share,review_state,gross_gbp,credit_magnitude_gbp,net_gbp
+ALL,rfm_0.8,0.800000,15,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,15,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,15,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,15,Lower RFM,Higher RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,15,Lower RFM,Lower RFM,77,77,1.0,meets_minimum,44758.650000,388.000000,44370.650000
+ALL,rfm_0.8,0.800000,15,Lower RFM,Middle RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,15,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,15,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,15,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+ALL,rfm_0.8,0.800000,30,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,30,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,30,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,30,Lower RFM,Higher RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,30,Lower RFM,Lower RFM,77,77,1.0,meets_minimum,44758.650000,388.000000,44370.650000
+ALL,rfm_0.8,0.800000,30,Lower RFM,Middle RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,30,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,30,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,30,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+ALL,rfm_0.8,0.800000,60,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,60,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,60,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,60,Lower RFM,Higher RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,60,Lower RFM,Lower RFM,77,77,1.0,meets_minimum,44758.650000,388.000000,44370.650000
+ALL,rfm_0.8,0.800000,60,Lower RFM,Middle RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,60,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,60,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_0.8,0.800000,60,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+ALL,rfm_1,1.000000,15,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,15,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,15,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,15,Lower RFM,Higher RFM,0,78,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,15,Lower RFM,Lower RFM,78,78,1.0,meets_minimum,46257.990000,388.000000,45869.990000
+ALL,rfm_1,1.000000,15,Lower RFM,Middle RFM,0,78,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,15,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,15,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,15,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,30,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,30,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,30,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,30,Lower RFM,Higher RFM,0,78,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,30,Lower RFM,Lower RFM,78,78,1.0,meets_minimum,46257.990000,388.000000,45869.990000
+ALL,rfm_1,1.000000,30,Lower RFM,Middle RFM,0,78,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,30,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,30,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,30,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,60,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,60,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,60,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,60,Lower RFM,Higher RFM,0,78,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,60,Lower RFM,Lower RFM,78,78,1.0,meets_minimum,46257.990000,388.000000,45869.990000
+ALL,rfm_1,1.000000,60,Lower RFM,Middle RFM,0,78,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,60,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,60,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1,1.000000,60,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,15,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,15,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,15,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,15,Lower RFM,Higher RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,15,Lower RFM,Lower RFM,77,77,1.0,meets_minimum,44758.650000,388.000000,44370.650000
+ALL,rfm_1.2,1.200000,15,Lower RFM,Middle RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,15,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,15,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,15,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+ALL,rfm_1.2,1.200000,30,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,30,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,30,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,30,Lower RFM,Higher RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,30,Lower RFM,Lower RFM,77,77,1.0,meets_minimum,44758.650000,388.000000,44370.650000
+ALL,rfm_1.2,1.200000,30,Lower RFM,Middle RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,30,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,30,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,30,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+ALL,rfm_1.2,1.200000,60,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,60,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,60,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,60,Lower RFM,Higher RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,60,Lower RFM,Lower RFM,77,77,1.0,meets_minimum,44758.650000,388.000000,44370.650000
+ALL,rfm_1.2,1.200000,60,Lower RFM,Middle RFM,0,77,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,60,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,60,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+ALL,rfm_1.2,1.200000,60,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+France,rfm_0.8,0.800000,15,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,15,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,15,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,15,Lower RFM,Higher RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,15,Lower RFM,Lower RFM,2,2,1.0,below_minimum,1174.160000,0.000000,1174.160000
+France,rfm_0.8,0.800000,15,Lower RFM,Middle RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,15,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,15,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,15,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,30,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,30,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,30,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,30,Lower RFM,Higher RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,30,Lower RFM,Lower RFM,2,2,1.0,below_minimum,1174.160000,0.000000,1174.160000
+France,rfm_0.8,0.800000,30,Lower RFM,Middle RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,30,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,30,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,30,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,60,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,60,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,60,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,60,Lower RFM,Higher RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,60,Lower RFM,Lower RFM,2,2,1.0,below_minimum,1174.160000,0.000000,1174.160000
+France,rfm_0.8,0.800000,60,Lower RFM,Middle RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,60,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,60,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_0.8,0.800000,60,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,15,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,15,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,15,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,15,Lower RFM,Higher RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,15,Lower RFM,Lower RFM,2,2,1.0,below_minimum,1174.160000,0.000000,1174.160000
+France,rfm_1,1.000000,15,Lower RFM,Middle RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,15,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,15,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,15,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,30,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,30,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,30,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,30,Lower RFM,Higher RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,30,Lower RFM,Lower RFM,2,2,1.0,below_minimum,1174.160000,0.000000,1174.160000
+France,rfm_1,1.000000,30,Lower RFM,Middle RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,30,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,30,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,30,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,60,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,60,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,60,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,60,Lower RFM,Higher RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,60,Lower RFM,Lower RFM,2,2,1.0,below_minimum,1174.160000,0.000000,1174.160000
+France,rfm_1,1.000000,60,Lower RFM,Middle RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,60,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,60,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1,1.000000,60,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,15,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,15,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,15,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,15,Lower RFM,Higher RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,15,Lower RFM,Lower RFM,2,2,1.0,below_minimum,1174.160000,0.000000,1174.160000
+France,rfm_1.2,1.200000,15,Lower RFM,Middle RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,15,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,15,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,15,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,30,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,30,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,30,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,30,Lower RFM,Higher RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,30,Lower RFM,Lower RFM,2,2,1.0,below_minimum,1174.160000,0.000000,1174.160000
+France,rfm_1.2,1.200000,30,Lower RFM,Middle RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,30,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,30,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,30,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,60,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,60,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,60,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,60,Lower RFM,Higher RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,60,Lower RFM,Lower RFM,2,2,1.0,below_minimum,1174.160000,0.000000,1174.160000
+France,rfm_1.2,1.200000,60,Lower RFM,Middle RFM,0,2,0.0,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,60,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,60,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+France,rfm_1.2,1.200000,60,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,15,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,15,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,15,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,15,Lower RFM,Higher RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,15,Lower RFM,Lower RFM,70,70,1.0,meets_minimum,41296.990000,191.900000,41105.090000
+United Kingdom,rfm_0.8,0.800000,15,Lower RFM,Middle RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,15,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,15,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,15,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+United Kingdom,rfm_0.8,0.800000,30,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,30,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,30,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,30,Lower RFM,Higher RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,30,Lower RFM,Lower RFM,70,70,1.0,meets_minimum,41296.990000,191.900000,41105.090000
+United Kingdom,rfm_0.8,0.800000,30,Lower RFM,Middle RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,30,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,30,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,30,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+United Kingdom,rfm_0.8,0.800000,60,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,60,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,60,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,60,Lower RFM,Higher RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,60,Lower RFM,Lower RFM,70,70,1.0,meets_minimum,41296.990000,191.900000,41105.090000
+United Kingdom,rfm_0.8,0.800000,60,Lower RFM,Middle RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,60,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,60,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_0.8,0.800000,60,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+United Kingdom,rfm_1,1.000000,15,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,15,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,15,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,15,Lower RFM,Higher RFM,0,71,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,15,Lower RFM,Lower RFM,71,71,1.0,meets_minimum,42796.330000,191.900000,42604.430000
+United Kingdom,rfm_1,1.000000,15,Lower RFM,Middle RFM,0,71,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,15,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,15,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,15,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,30,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,30,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,30,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,30,Lower RFM,Higher RFM,0,71,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,30,Lower RFM,Lower RFM,71,71,1.0,meets_minimum,42796.330000,191.900000,42604.430000
+United Kingdom,rfm_1,1.000000,30,Lower RFM,Middle RFM,0,71,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,30,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,30,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,30,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,60,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,60,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,60,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,60,Lower RFM,Higher RFM,0,71,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,60,Lower RFM,Lower RFM,71,71,1.0,meets_minimum,42796.330000,191.900000,42604.430000
+United Kingdom,rfm_1,1.000000,60,Lower RFM,Middle RFM,0,71,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,60,Middle RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,60,Middle RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1,1.000000,60,Middle RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,15,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,15,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,15,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,15,Lower RFM,Higher RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,15,Lower RFM,Lower RFM,70,70,1.0,meets_minimum,41296.990000,191.900000,41105.090000
+United Kingdom,rfm_1.2,1.200000,15,Lower RFM,Middle RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,15,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,15,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,15,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+United Kingdom,rfm_1.2,1.200000,30,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,30,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,30,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,30,Lower RFM,Higher RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,30,Lower RFM,Lower RFM,70,70,1.0,meets_minimum,41296.990000,191.900000,41105.090000
+United Kingdom,rfm_1.2,1.200000,30,Lower RFM,Middle RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,30,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,30,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,30,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000
+United Kingdom,rfm_1.2,1.200000,60,Higher RFM,Higher RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,60,Higher RFM,Lower RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,60,Higher RFM,Middle RFM,0,0,,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,60,Lower RFM,Higher RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,60,Lower RFM,Lower RFM,70,70,1.0,meets_minimum,41296.990000,191.900000,41105.090000
+United Kingdom,rfm_1.2,1.200000,60,Lower RFM,Middle RFM,0,70,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,60,Middle RFM,Higher RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,60,Middle RFM,Lower RFM,0,1,0.0,empty,0.000000,0.000000,0.000000
+United Kingdom,rfm_1.2,1.200000,60,Middle RFM,Middle RFM,1,1,1.0,below_minimum,1499.340000,0.000000,1499.340000

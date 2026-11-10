@@ -1,0 +1,10 @@
+{
+  "status": "Passed",
+  "verified_at_utc": "2026-10-23T11:20:24.014351+00:00",
+  "markdown_documents_checked": 19,
+  "local_file_links_checked": 371,
+  "missing_targets": [],
+  "signoff_artifacts_rechecked": 19,
+  "changed_signoff_artifacts": [],
+  "scope": "Local target existence and frozen artifact hashes; does not validate external links, anchors or rendered presentation"
+}

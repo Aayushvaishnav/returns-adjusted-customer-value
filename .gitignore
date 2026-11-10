@@ -1,0 +1,50 @@
+# Local environments and dependencies
+.venv/
+.venv-windows/
+/venv/
+/env/
+node_modules/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local credentials; keep shareable examples
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Source snapshots and generated data; keep folder instructions
+/data/raw/*
+!/data/raw/README.md
+/data/processed/*
+!/data/processed/README.md
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp/
+
+# Power BI local state; keep report and model definitions
+.pbi/
+
+# Intermediate Excel builds and isolated refresh copies
+/reports/excel/R2_review_build*.xlsx
+/outputs/excel_acceptance_*/
+
+# Runtime logs and editor or Office temporary files
+*.log
+*.swp
+*.swo
+*~
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini

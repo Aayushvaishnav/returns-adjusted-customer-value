@@ -1,0 +1,139 @@
+{
+  "status": "Agent rendered review recorded; owner acceptance pending",
+  "verified_at_utc": "2026-10-23T05:21:00.061517+00:00",
+  "workbook": "reports/excel/R2_review_v4.xlsx",
+  "workbook_sha256": "133268bc10dec85cfc38ef820985dd824d55d25a043d437a638387124b4a8d2f",
+  "matches_native_build_hash": true,
+  "saved_active_sheet": "Value_Overview",
+  "cached_formula_errors": [],
+  "charts": [
+    {
+      "path": "xl/charts/chart1.xml",
+      "visible_axes": true,
+      "plot_hidden_source": true
+    },
+    {
+      "path": "xl/charts/chart2.xml",
+      "visible_axes": true,
+      "plot_hidden_source": true
+    }
+  ],
+  "contrast": [
+    {
+      "foreground": "B85424",
+      "background": "FFFFFF",
+      "ratio": 4.848010365181113,
+      "minimum": 3,
+      "passed": true
+    },
+    {
+      "foreground": "B85424",
+      "background": "F7F9FC",
+      "ratio": 4.596550778704396,
+      "minimum": 3,
+      "passed": true
+    },
+    {
+      "foreground": "376F83",
+      "background": "FFFFFF",
+      "ratio": 5.579231134929393,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "376F83",
+      "background": "F7F9FC",
+      "ratio": 5.289844139364469,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "376F83",
+      "background": "FAF0E9",
+      "ratio": 4.969626386979388,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "243746",
+      "background": "FFFFFF",
+      "ratio": 12.281217248820907,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "243746",
+      "background": "F7F9FC",
+      "ratio": 11.644207511176942,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "243746",
+      "background": "FAF0E9",
+      "ratio": 10.939331930857382,
+      "minimum": 4.5,
+      "passed": true
+    },
+    {
+      "foreground": "243746",
+      "background": "DDEBF7",
+      "ratio": 10.117876622694302,
+      "minimum": 4.5,
+      "passed": true
+    }
+  ],
+  "views": [
+    {
+      "sheet": "Value_Overview",
+      "pdf_sha256": "6996a334016ca36eef7021b57332cbd606c37b4d4ad1332232abdb4ffa43cb66",
+      "png_sha256": "6e0f8dd4800496f92bbead385931348ed4fdd55e8c2f6d20254fb45634d4818c",
+      "pages": 1,
+      "png_pixels": [
+        2400,
+        1698
+      ],
+      "review": "Agent inspected the Excel-exported PDF/PNG; labelled values, navigation and limitations are visible"
+    },
+    {
+      "sheet": "Segment_Migration",
+      "pdf_sha256": "2bf6016a0c685e7a2478b9f10ad3f92afd1bc0526df1bdc89297fea15229363b",
+      "png_sha256": "8a0aeb22c164642326bfd3a447a09b70e916db3eaf3d4ae1e24dc1b0e79934e7",
+      "pages": 1,
+      "png_pixels": [
+        2400,
+        1698
+      ],
+      "review": "Agent inspected the Excel-exported PDF/PNG; labelled values, navigation and limitations are visible"
+    },
+    {
+      "sheet": "Cohorts",
+      "pdf_sha256": "5b0c709bd960c271fbd59de3fa9fa84356095f47336cb7fde2089550f6e0925c",
+      "png_sha256": "506aed55102cb0cdaef043c08a6d28c87d30a127fb406a97c123a8a31df81057",
+      "pages": 1,
+      "png_pixels": [
+        2400,
+        1698
+      ],
+      "review": "Agent inspected the Excel-exported PDF/PNG; labelled values, navigation and limitations are visible"
+    },
+    {
+      "sheet": "Review_Actions",
+      "pdf_sha256": "e85362d3818219ddb9841c7ae5fd443a74f4edef24d36263c3987f9118d4cf85",
+      "png_sha256": "ae47fec5fb11ec1b6dfbb50d5fd5319cec4b5d774cf0791c09ea8c3a6b4a70d3",
+      "pages": 1,
+      "png_pixels": [
+        2400,
+        1698
+      ],
+      "review": "Agent inspected the Excel-exported PDF/PNG; labelled values, navigation and limitations are visible"
+    }
+  ],
+  "known_limits": [
+    "Printed render review instead of a desktop screenshot or human mouse test",
+    "Owner review of desktop zoom, scrolling, drop-downs, navigation, save and reopen remains pending",
+    "GBP display follows this machine regional digit grouping; calculations retain source precision",
+    "No colour-vision simulation, cloud publication or Gate D sign-off claimed"
+  ],
+  "next_action": "Owner review the native workbook and record acceptance before Gate D sign-off"
+}

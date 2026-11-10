@@ -1,0 +1,22 @@
+{
+  "state": "Frozen for initial implementation; changes require a version and sensitivity record",
+  "version": 2,
+  "version_reason": "Specify segment sum boundaries, dominant-positive-gross country assignment and invoice timestamp conflict rules before the first customer comparison; original RFM bins and financial scope unchanged",
+  "currency": "GBP",
+  "observation_start": "2009-12-01T00:00:00",
+  "rfm_cutoff_exclusive": "2011-12-10T00:00:00",
+  "recency_reference_date": "2011-12-10",
+  "repeat_followup_days": 90,
+  "recency_upper_days_best_to_worst": [30, 90, 180, 365],
+  "frequency_upper_invoices_worst_to_best": [1, 2, 5, 10],
+  "monetary_upper_gbp_worst_to_best": [250, 1000, 2500, 10000],
+  "segment_score_minimum": {"Higher RFM": 12, "Middle RFM": 9, "Lower RFM": 3},
+  "assigned_country": "Largest eligible positive gross value in the frozen window; equal values use ascending country label; credit-only customers use Unavailable",
+  "invoice_timestamp_policy": "Distinct trimmed positive invoice token per customer; first timestamp defines repeat ordering; last positive line timestamp defines recency; report multi-timestamp tokens",
+  "threshold_sensitivity_multipliers": [0.8, 1.0, 1.2],
+  "minimum_review_customers": 30,
+  "minimum_review_customers_sensitivity": [15, 30, 60],
+  "credit_matching": "Unmatched; no original-order linkage is inferred",
+  "cross_sheet_overlap_policy": "Preserve all raw rows; for each exact eight-field raw record plus within-sheet occurrence number, retain the later configured worksheet occurrence and mark earlier copies excluded from analysis",
+  "within_sheet_identical_rows": "Retain; source-line identifiers distinguish occurrences"
+}

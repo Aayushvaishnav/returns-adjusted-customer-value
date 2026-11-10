@@ -1,0 +1,9 @@
+{
+  "status": "Passed",
+  "verified_at_utc": "2026-10-23T15:15:52.301976+00:00",
+  "scope": "Changed root/R2/current F1 scheduling documentation local linked-file existence; external URLs and fragment anchors excluded",
+  "files_checked": 23,
+  "local_links_checked": 555,
+  "missing": [],
+  "release_hashes_verified": true
+}

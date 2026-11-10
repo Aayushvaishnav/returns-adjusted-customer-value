@@ -1,0 +1,10 @@
+scope,scenario,multiplier,purchase_customers,monetary_score_changed_customers,segment_changed_customers,higher_segment_exits,gross_label_changes_vs_base,net_label_changes_vs_base,negative_net_customers,net_rank_worsened_customers,gross_gbp,credit_magnitude_gbp,net_gbp,segment_changed_share
+ALL,rfm_0.8,0.800000,78,0,0,0,1,1,0,3,46257.990000,388.000000,45869.990000,0.0
+ALL,rfm_1,1.000000,78,0,0,0,0,0,0,3,46257.990000,388.000000,45869.990000,0.0
+ALL,rfm_1.2,1.200000,78,0,0,0,1,1,0,3,46257.990000,388.000000,45869.990000,0.0
+France,rfm_0.8,0.800000,2,0,0,0,0,0,0,0,1174.160000,0.000000,1174.160000,0.0
+France,rfm_1,1.000000,2,0,0,0,0,0,0,0,1174.160000,0.000000,1174.160000,0.0
+France,rfm_1.2,1.200000,2,0,0,0,0,0,0,0,1174.160000,0.000000,1174.160000,0.0
+United Kingdom,rfm_0.8,0.800000,71,0,0,0,1,1,0,2,42796.330000,191.900000,42604.430000,0.0
+United Kingdom,rfm_1,1.000000,71,0,0,0,0,0,0,2,42796.330000,191.900000,42604.430000,0.0
+United Kingdom,rfm_1.2,1.200000,71,0,0,0,1,1,0,2,42796.330000,191.900000,42604.430000,0.0

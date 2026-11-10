@@ -1,0 +1,17 @@
+test_chart_sources_remain_plottable_with_visible_axes (test_excel_workbook.ExcelWorkbookTests.test_chart_sources_remain_plottable_with_visible_axes) ... ok
+test_cohort_unavailable_denominator_returns_blank (test_excel_workbook.ExcelWorkbookTests.test_cohort_unavailable_denominator_returns_blank) ... ok
+test_financial_and_assigned_country_controls_are_independent (test_excel_workbook.ExcelWorkbookTests.test_financial_and_assigned_country_controls_are_independent) ... ok
+test_frozen_parameters_and_no_materiality_input (test_excel_workbook.ExcelWorkbookTests.test_frozen_parameters_and_no_materiality_input) ... ok
+test_manifest_cannot_redirect_input_files (test_excel_workbook.ExcelWorkbookTests.test_manifest_cannot_redirect_input_files) ... ok
+test_manifest_requires_passed_integer_version_one (test_excel_workbook.ExcelWorkbookTests.test_manifest_requires_passed_integer_version_one) ... ok
+test_nine_compact_imports_preserve_values_and_types (test_excel_workbook.ExcelWorkbookTests.test_nine_compact_imports_preserve_values_and_types) ... ok
+test_queries_parameterize_folder_check_schema_and_preserve_null (test_excel_workbook.ExcelWorkbookTests.test_queries_parameterize_folder_check_schema_and_preserve_null) ... ok
+test_separate_output_preserves_template_and_manual_work (test_excel_workbook.ExcelWorkbookTests.test_separate_output_preserves_template_and_manual_work) ... ok
+test_serialized_xlookup_uses_future_prefix_and_sumifs_are_formulas (test_excel_workbook.ExcelWorkbookTests.test_serialized_xlookup_uses_future_prefix_and_sumifs_are_formulas) ... ok
+test_tampered_input_and_rehashed_wrong_schema_rejected (test_excel_workbook.ExcelWorkbookTests.test_tampered_input_and_rehashed_wrong_schema_rejected) ... ok
+test_template_still_has_header_only_tables (test_excel_workbook.ExcelWorkbookTests.test_template_still_has_header_only_tables) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.240s
+
+OK

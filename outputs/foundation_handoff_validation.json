@@ -1,0 +1,14 @@
+{
+  "status": "Passed",
+  "verified_at_utc": "2026-10-22T19:34:33.142654+00:00",
+  "scope": "Source/preparation/template foundation handoff; no analytical workbook acceptance",
+  "preparation_artifact_hashes_checked": 22,
+  "filtered_row_and_money_balances_checked": 8,
+  "documents_checked": 13,
+  "local_links_checked": 127,
+  "missing_links": [],
+  "gate_a": "Passed",
+  "gate_b": "In progress",
+  "gate_d_signoff": false,
+  "no_final_cv_files": true
+}

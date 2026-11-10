@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "purpose": "Gate C descriptive robustness analysis; base metric contract and customer population remain unchanged",
+  "scoring_sensitivity": "Multiply all recency, frequency and monetary upper boundaries jointly by each configured threshold_sensitivity_multiplier; gross and net share each scenario's boundaries; keep segment-score sums fixed",
+  "boundary_arithmetic": "Exact decimal multiplication without integer rounding; inclusive upper boundaries; integer observations compare directly against fractional boundaries",
+  "review_group": "Gross-segment by net-segment cell within ALL or assigned-country scope; compare cell customer count with configured minimum_review_customers_sensitivity using inclusive >=",
+  "review_states": ["empty", "below_minimum", "meets_minimum"],
+  "review_interpretation": "A group-size safeguard for investigation display; not statistical significance, profitability, campaign suitability or permission to hide factual counts",
+  "country_scopes": ["ALL", "United Kingdom", "France"],
+  "cohort_review_denominator": "Customers with complete individual 90-day follow-up; show original cohort size, incomplete customers and whether the whole observed cohort is eligible",
+  "ambiguity_sensitivity": "Exclude simultaneous-first or multi-timestamp-invoice customers only in separately labeled diagnostic comparisons; preserve base eligibility and outcomes",
+  "source_start_sensitivity": "Exclude the entire first observed calendar-month cohort in a separately labeled diagnostic comparison; this does not resolve left censoring in other cohorts",
+  "exposure_interpretation": "Full-window frequency has unequal observed exposure; end-of-window RFM must not be used as a prospective validation of earlier 90-day repeat outcomes"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "Owner acceptance recorded; native revalidation passed",
+  "recorded_at_utc": "2026-10-23T11:14:40.417612+00:00",
+  "owner_confirmation": {
+    "response": "yes it works",
+    "basis": "Response to the six-step guided desktop review checklist",
+    "method": "User-reported acceptance; agent did not observe mouse interactions",
+    "date": "2026-10-23"
+  },
+  "reviewed_workbook": "reports/excel/R2_owner_review_20261023_1501.xlsx",
+  "reviewed_workbook_sha256": "6b5803e664fd1cd13890c964e3bb15c5222c84a32e16033b15617be5fe3178a8",
+  "original_workbook": "reports/excel/R2_review_v4.xlsx",
+  "original_workbook_sha256": "133268bc10dec85cfc38ef820985dd824d55d25a043d437a638387124b4a8d2f",
+  "original_matches_recorded_build": true,
+  "accepted_checklist": [
+    "Four views readable at owner working zoom; scrolling reviewed",
+    "Financial country and month controls",
+    "Assigned-country, scoring-scenario and review-minimum controls",
+    "Cohort denominator and unavailable-cell presentation",
+    "Navigation and audit slicer select/clear behavior",
+    "Separate reviewed copy saved and reopened"
+  ],
+  "zoom_detail": {
+    "state": "Not supplied",
+    "note": "No numeric zoom percentage was included in the owner response"
+  },
+  "native_revalidation": {
+    "artifact": "outputs/excel_native_acceptance.json",
+    "status": "passed",
+    "finished_utc": "2026-10-23T11:12:54.3256833Z",
+    "checks": 2721,
+    "failed_checks": 0,
+    "matching_imports": 9,
+    "formula_errors": 0,
+    "reviewed_source_preserved": true
+  },
+  "python_tests": {
+    "artifact": "outputs/gate_d_final_tests.txt",
+    "passed": 97,
+    "mode": "Normal execution; prior optimized run remains separate historical evidence"
+  },
+  "known_limits": [
+    "Acceptance is user-reported instead of agent-observed desktop testing",
+    "Existing previews are original-build printed Excel renders instead of desktop screenshots",
+    "No colour-vision simulation or cloud publication performed",
+    "Gate E final measurements and CV wording have not begun"
+  ]
+}

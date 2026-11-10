@@ -1,0 +1,20 @@
+{
+  "status": "Passed",
+  "schema_version": 1,
+  "manifest_sha256": "f50781ef2fe400f0f952fcf2f35b2b67d56908d04485bb775f6aa07e1508acca",
+  "verified_upstream_artifacts": 57,
+  "tables": {
+    "monthly_financials": 594,
+    "segment_migration": 6,
+    "cohort_activity": 325,
+    "repeat_cohorts": 25,
+    "threshold_summary": 9,
+    "migration_sensitivity": 243,
+    "customer_stability": 3,
+    "review_support": 27,
+    "cohort_review": 75,
+    "repeat_sensitivity": 18,
+    "observed_exposure": 9,
+    "monthly_identification": 655
+  }
+}

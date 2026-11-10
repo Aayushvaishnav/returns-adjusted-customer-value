@@ -1,0 +1,7 @@
+scope,first_cohort_year,customer_count,positive_invoice_count,mean_frequency,observed_days_min,observed_days_max
+ALL,2009,35,41,1.1714285714285715,739,739
+ALL,2010,43,58,1.3488372093023255,374,374
+France,2009,1,1,1.0,739,739
+France,2010,1,1,1.0,374,374
+United Kingdom,2009,31,37,1.1935483870967742,739,739
+United Kingdom,2010,40,55,1.375,374,374

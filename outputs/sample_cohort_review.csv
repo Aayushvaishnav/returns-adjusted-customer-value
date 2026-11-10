@@ -1,0 +1,7 @@
+scope,observed_customers,complete_customers,incomplete_customers,repeat_customers,positive_invoice_count,observed_days_min,observed_days_max,repeat_share,first_month,source_start_cohort,followup_state,meets_15,meets_30,meets_60,mean_frequency
+ALL,35,35,0,3,41,739,739,0.08571428571428572,2009-12-01,True,complete_cohort,True,True,False,1.1714285714285715
+ALL,43,0,43,0,58,374,374,,2010-12-01,False,unobservable,False,False,False,1.3488372093023255
+France,1,1,0,0,1,739,739,0.0,2009-12-01,True,complete_cohort,False,False,False,1.0
+France,1,0,1,0,1,374,374,,2010-12-01,False,unobservable,False,False,False,1.0
+United Kingdom,31,31,0,3,37,739,739,0.0967741935483871,2009-12-01,True,complete_cohort,True,True,False,1.1935483870967742
+United Kingdom,40,0,40,0,55,374,374,,2010-12-01,False,unobservable,False,False,False,1.375

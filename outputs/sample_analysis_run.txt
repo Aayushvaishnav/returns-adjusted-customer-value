@@ -1,0 +1,1 @@
+{"status": "Passed", "scope": "sample", "evidence": "/mnt/c/Users/Aayush/my_files/da_projects/projects/r2-returns-adjusted-customer-value/outputs/sample_analysis_validation.json", "output_rows": {"threshold_summary": 9, "migration_sensitivity": 243, "customer_stability": 3, "review_support": 27, "cohort_review": 6, "repeat_sensitivity": 18, "observed_exposure": 6}}

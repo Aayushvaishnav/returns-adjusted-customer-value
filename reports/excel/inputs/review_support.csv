@@ -1,0 +1,28 @@
+scope,scenario,minimum_customers,nonempty_cells,supported_cells,nonempty_moved_cells,supported_moved_cells,customers_in_supported_moved_cells
+ALL,rfm_0.8,15,5,4,2,1,19
+ALL,rfm_0.8,30,5,3,2,0,0
+ALL,rfm_0.8,60,5,3,2,0,0
+ALL,rfm_1,15,6,3,3,0,0
+ALL,rfm_1,30,6,3,3,0,0
+ALL,rfm_1,60,6,3,3,0,0
+ALL,rfm_1.2,15,6,3,3,0,0
+ALL,rfm_1.2,30,6,3,3,0,0
+ALL,rfm_1.2,60,6,3,3,0,0
+France,rfm_0.8,15,3,3,0,0,0
+France,rfm_0.8,30,3,2,0,0,0
+France,rfm_0.8,60,3,0,0,0,0
+France,rfm_1,15,4,3,1,0,0
+France,rfm_1,30,4,2,1,0,0
+France,rfm_1,60,4,0,1,0,0
+France,rfm_1.2,15,4,3,1,0,0
+France,rfm_1.2,30,4,1,1,0,0
+France,rfm_1.2,60,4,0,1,0,0
+United Kingdom,rfm_0.8,15,5,4,2,1,17
+United Kingdom,rfm_0.8,30,5,3,2,0,0
+United Kingdom,rfm_0.8,60,5,3,2,0,0
+United Kingdom,rfm_1,15,6,3,3,0,0
+United Kingdom,rfm_1,30,6,3,3,0,0
+United Kingdom,rfm_1,60,6,3,3,0,0
+United Kingdom,rfm_1.2,15,6,3,3,0,0
+United Kingdom,rfm_1.2,30,6,3,3,0,0
+United Kingdom,rfm_1.2,60,6,3,3,0,0

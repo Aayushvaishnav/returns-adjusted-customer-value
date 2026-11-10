@@ -1,0 +1,76 @@
+scope,observed_customers,complete_customers,incomplete_customers,repeat_customers,positive_invoice_count,observed_days_min,observed_days_max,repeat_share,first_month,source_start_cohort,followup_state,meets_15,meets_30,meets_60,mean_frequency
+ALL,951,951,0,579,15161,717,739,0.6088328075709779,2009-12-01,True,complete_cohort,True,True,True,15.94216614090431
+ALL,368,368,0,197,3090,678,705,0.5353260869565217,2010-01-01,False,complete_cohort,True,True,True,8.396739130434783
+ALL,375,375,0,193,2510,650,677,0.5146666666666667,2010-02-01,False,complete_cohort,True,True,True,6.693333333333333
+ALL,441,441,0,193,2872,619,649,0.4376417233560091,2010-03-01,False,complete_cohort,True,True,True,6.512471655328798
+ALL,294,294,0,116,1502,589,618,0.3945578231292517,2010-04-01,False,complete_cohort,True,True,True,5.108843537414966
+ALL,255,255,0,94,1122,559,587,0.3686274509803922,2010-05-01,False,complete_cohort,True,True,True,4.4
+ALL,267,267,0,103,1190,528,557,0.3857677902621723,2010-06-01,False,complete_cohort,True,True,True,4.456928838951311
+ALL,185,185,0,82,950,498,527,0.44324324324324327,2010-07-01,False,complete_cohort,True,True,True,5.135135135135135
+ALL,163,163,0,86,728,466,496,0.5276073619631901,2010-08-01,False,complete_cohort,True,True,True,4.466257668711656
+ALL,239,239,0,108,998,436,465,0.45188284518828453,2010-09-01,False,complete_cohort,True,True,True,4.175732217573222
+ALL,375,375,0,151,1337,405,435,0.4026666666666667,2010-10-01,False,complete_cohort,True,True,True,3.5653333333333332
+ALL,326,326,0,113,1024,375,404,0.34662576687116564,2010-11-01,False,complete_cohort,True,True,True,3.1411042944785277
+ALL,76,76,0,12,156,352,374,0.15789473684210525,2010-12-01,False,complete_cohort,True,True,True,2.0526315789473686
+ALL,72,72,0,30,261,313,339,0.4166666666666667,2011-01-01,False,complete_cohort,True,True,True,3.625
+ALL,125,125,0,40,400,285,312,0.32,2011-02-01,False,complete_cohort,True,True,True,3.2
+ALL,179,179,0,75,622,254,284,0.41899441340782123,2011-03-01,False,complete_cohort,True,True,True,3.474860335195531
+ALL,106,106,0,40,352,226,253,0.37735849056603776,2011-04-01,False,complete_cohort,True,True,True,3.3207547169811322
+ALL,111,111,0,48,344,193,223,0.43243243243243246,2011-05-01,False,complete_cohort,True,True,True,3.099099099099099
+ALL,108,108,0,54,302,163,192,0.5,2011-06-01,False,complete_cohort,True,True,True,2.7962962962962963
+ALL,101,101,0,56,281,132,162,0.5544554455445545,2011-07-01,False,complete_cohort,True,True,True,2.782178217821782
+ALL,107,107,0,53,253,101,131,0.4953271028037383,2011-08-01,False,complete_cohort,True,True,True,2.364485981308411
+ALL,188,32,156,22,424,71,100,0.6875,2011-09-01,False,partial_followup,True,True,False,2.25531914893617
+ALL,221,0,221,0,412,40,69,,2011-10-01,False,unobservable,False,False,False,1.8642533936651584
+ALL,191,0,191,0,273,10,39,,2011-11-01,False,unobservable,False,False,False,1.4293193717277486
+ALL,28,0,28,0,30,1,9,,2011-12-01,False,unobservable,False,False,False,1.0714285714285714
+France,10,10,0,8,251,727,739,0.8,2009-12-01,True,complete_cohort,False,False,False,25.1
+France,2,2,0,0,21,690,702,0.0,2010-01-01,False,complete_cohort,False,False,False,10.5
+France,5,5,0,2,41,655,667,0.4,2010-02-01,False,complete_cohort,False,False,False,8.2
+France,6,6,0,3,50,625,649,0.5,2010-03-01,False,complete_cohort,False,False,False,8.333333333333334
+France,2,2,0,1,13,596,612,0.5,2010-04-01,False,complete_cohort,False,False,False,6.5
+France,3,3,0,2,30,563,578,0.6666666666666666,2010-05-01,False,complete_cohort,False,False,False,10.0
+France,3,3,0,2,20,529,544,0.6666666666666666,2010-06-01,False,complete_cohort,False,False,False,6.666666666666667
+France,1,1,0,1,2,527,527,1.0,2010-07-01,False,complete_cohort,False,False,False,2.0
+France,3,3,0,3,17,466,472,1.0,2010-08-01,False,complete_cohort,False,False,False,5.666666666666667
+France,1,1,0,1,9,436,436,1.0,2010-09-01,False,complete_cohort,False,False,False,9.0
+France,5,5,0,2,24,421,435,0.4,2010-10-01,False,complete_cohort,False,False,False,4.8
+France,4,4,0,3,15,384,403,0.75,2010-11-01,False,complete_cohort,False,False,False,3.75
+France,2,2,0,0,2,367,372,0.0,2010-12-01,False,complete_cohort,False,False,False,1.0
+France,4,4,0,1,5,316,338,0.25,2011-01-01,False,complete_cohort,False,False,False,1.25
+France,2,2,0,0,2,285,292,0.0,2011-02-01,False,complete_cohort,False,False,False,1.0
+France,4,4,0,1,9,257,284,0.25,2011-03-01,False,complete_cohort,False,False,False,2.25
+France,1,1,0,0,1,233,233,0.0,2011-04-01,False,complete_cohort,False,False,False,1.0
+France,7,7,0,5,23,198,219,0.7142857142857143,2011-05-01,False,complete_cohort,False,False,False,3.2857142857142856
+France,3,3,0,1,5,178,187,0.3333333333333333,2011-06-01,False,complete_cohort,False,False,False,1.6666666666666667
+France,2,2,0,1,6,134,151,0.5,2011-07-01,False,complete_cohort,False,False,False,3.0
+France,5,5,0,2,10,113,128,0.4,2011-08-01,False,complete_cohort,False,False,False,2.0
+France,6,1,5,1,18,72,94,1.0,2011-09-01,False,partial_followup,False,False,False,3.0
+France,5,0,5,0,10,59,66,,2011-10-01,False,unobservable,False,False,False,2.0
+France,6,0,6,0,7,12,39,,2011-11-01,False,unobservable,False,False,False,1.1666666666666667
+France,1,0,1,0,1,4,4,,2011-12-01,False,unobservable,False,False,False,1.0
+United Kingdom,902,902,0,550,13836,717,739,0.6097560975609756,2009-12-01,True,complete_cohort,True,True,True,15.339246119733925
+United Kingdom,340,340,0,181,2846,678,705,0.5323529411764706,2010-01-01,False,complete_cohort,True,True,True,8.370588235294118
+United Kingdom,344,344,0,177,2260,650,677,0.5145348837209303,2010-02-01,False,complete_cohort,True,True,True,6.569767441860465
+United Kingdom,411,411,0,182,2730,619,649,0.44282238442822386,2010-03-01,False,complete_cohort,True,True,True,6.642335766423358
+United Kingdom,268,268,0,111,1368,589,618,0.4141791044776119,2010-04-01,False,complete_cohort,True,True,True,5.104477611940299
+United Kingdom,234,234,0,85,1022,559,587,0.36324786324786323,2010-05-01,False,complete_cohort,True,True,True,4.367521367521367
+United Kingdom,243,243,0,93,1070,528,557,0.38271604938271603,2010-06-01,False,complete_cohort,True,True,True,4.403292181069959
+United Kingdom,163,163,0,69,816,498,527,0.4233128834355828,2010-07-01,False,complete_cohort,True,True,True,5.006134969325154
+United Kingdom,149,149,0,78,662,466,496,0.5234899328859061,2010-08-01,False,complete_cohort,True,True,True,4.442953020134228
+United Kingdom,216,216,0,99,927,436,465,0.4583333333333333,2010-09-01,False,complete_cohort,True,True,True,4.291666666666667
+United Kingdom,337,337,0,133,1211,405,435,0.39465875370919884,2010-10-01,False,complete_cohort,True,True,True,3.593471810089021
+United Kingdom,306,306,0,106,973,375,404,0.3464052287581699,2010-11-01,False,complete_cohort,True,True,True,3.179738562091503
+United Kingdom,64,64,0,9,129,354,374,0.140625,2010-12-01,False,complete_cohort,True,True,True,2.015625
+United Kingdom,63,63,0,26,237,313,339,0.4126984126984127,2011-01-01,False,complete_cohort,True,True,True,3.761904761904762
+United Kingdom,109,109,0,34,353,285,312,0.3119266055045872,2011-02-01,False,complete_cohort,True,True,True,3.238532110091743
+United Kingdom,164,164,0,70,571,254,284,0.4268292682926829,2011-03-01,False,complete_cohort,True,True,True,3.481707317073171
+United Kingdom,93,93,0,35,294,226,253,0.3763440860215054,2011-04-01,False,complete_cohort,True,True,True,3.161290322580645
+United Kingdom,97,97,0,39,300,193,223,0.4020618556701031,2011-05-01,False,complete_cohort,True,True,True,3.0927835051546393
+United Kingdom,94,94,0,44,259,163,192,0.46808510638297873,2011-06-01,False,complete_cohort,True,True,True,2.75531914893617
+United Kingdom,89,89,0,53,255,132,162,0.5955056179775281,2011-07-01,False,complete_cohort,True,True,True,2.865168539325843
+United Kingdom,87,87,0,44,209,101,131,0.5057471264367817,2011-08-01,False,complete_cohort,True,True,True,2.4022988505747125
+United Kingdom,169,26,143,17,384,71,100,0.6538461538461539,2011-09-01,False,partial_followup,True,False,False,2.272189349112426
+United Kingdom,195,0,195,0,370,40,69,,2011-10-01,False,unobservable,False,False,False,1.8974358974358974
+United Kingdom,176,0,176,0,256,10,39,,2011-11-01,False,unobservable,False,False,False,1.4545454545454546
+United Kingdom,21,0,21,0,23,2,9,,2011-12-01,False,unobservable,False,False,False,1.0952380952380953

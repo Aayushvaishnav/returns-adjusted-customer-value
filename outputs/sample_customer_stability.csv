@@ -1,0 +1,4 @@
+scope,purchase_customers,always_moved,never_moved,movement_sensitive,gross_label_sensitive,net_label_sensitive
+ALL,78,0,78,0,1,1
+France,2,0,2,0,0,0
+United Kingdom,71,0,71,0,1,1

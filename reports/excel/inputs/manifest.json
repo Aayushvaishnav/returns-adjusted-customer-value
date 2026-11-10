@@ -1,0 +1,1011 @@
+{
+  "schema_version": 1,
+  "status": "Passed",
+  "scope": "full",
+  "source_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "verified_artifact_hashes": {
+    "python/build_excel_skeleton.py": "3a4ae81676aeffa15d40b09fa3c21739c7fc3997980577801e0172e5120d6444",
+    "python/build_metrics.py": "67a87e17fb1b853ea207d7a31b0e7e16196bfd30ded7a307074f64b7452466f1",
+    "python/cohort_reference.py": "5802ce9789f1d68dba330805c58ae9991bd4035d0940c84801925aae919c5adc",
+    "python/customers.py": "736735ab9813418b2209786ba40f68bf92a3db1f6c0cf78421faeceb6bb78f62",
+    "python/customer_reference.py": "452ae9d54a1d2ff601e3c4905741f8f770d6b407827ed6b00847129db79985e1",
+    "python/import_source.py": "ab24fc4cda1fcce7f735fe9d99884a4d6820c4433aae54a5a17f5f5695fa15ae",
+    "python/preparation_reference.py": "66e6e6c1a880bbd25864cd5ef8ee4688895bb3959ed5dbf1cb3b8766d2c25b42",
+    "python/prepare.py": "a4ca140b002e977b05310054982e16e33cff20e08a718e841c5221e30ae1c9a7",
+    "python/review_overlap.py": "babca9911288f996f17ae9732447804ea02b6d4be7fa99797609bcab7c20d6fc",
+    "python/source.py": "1392362baac9bee88bf613fac0d9cd2f842c397e108d0cf00e7f09f7be64cec9",
+    "python/summaries.py": "07f6c2a3f0f6486552145c78e9d4a539965c71a78caff3035f0335e4ce3a55b2",
+    "python/verify_source.py": "827e737c0914e40580d00cb4bda29cfe3c2481948ea276637a8628a5ef8ffb4a",
+    "sql/build_customers.sql": "727f85d95c8dacd7c956ab7f166e7adc5e71bcdf1b51b61a2595e1950ee30c95",
+    "sql/build_summaries.sql": "dbeda4330740f4fcb781687c001601f72be3b0f125d6c5c18219a510dc655365",
+    "sql/prepare_lines.sql": "fbc0462e83b51e8c4a725747cb12db320c0e3148a39259c596f24f3357a4816e",
+    "sql/source_profile.sql": "c4d0f0cc4548e1d1d0f699cab3e42d434d96b3cca82c0d90870a696dfc9eb976",
+    "tests/test_customers.py": "878f8b3a8d357311fe601685b5969f5d5bef6fe6e5cbd6310e9ba5399e732b04",
+    "tests/test_excel_skeleton.py": "dfea2ff7b72e69ada603cbfc285eee818f7caecd01123a28bdf7da9898a6f5ae",
+    "tests/test_preparation.py": "50c8e4e79caafd96198c61ecd9b6d809b633097aa3f1e9424b943c631788b909",
+    "tests/test_source_import.py": "da5e656a1ac7d7a7d98eeaa92e8db49197cc07c0d3db36b9f4bb5551f0420fc0",
+    "tests/test_source_verification.py": "9979fc952a8e4ac0d9af196028260e1d16a3a91a42dd5249d3650676344fa94a",
+    "tests/test_summaries.py": "4039c804eccfc615141b59722b751a2d384738378a6cc34055fb22ab9ec71721",
+    "config/source.json": "d2d3107e2e18bb513fc4d8780d4de9c781883744e94c30d841a1081c47c38942",
+    "config/metrics.json": "69f7d85924f2fe9423dd354fd81e17e598682f7fcf5f1dcb293efa7b8300353f",
+    "config/exceptional_codes.csv": "931c6835e8ebaae0b70d73379500fb7978573479c171fa517fb07fe18e8035a6",
+    "outputs/full_source_quality.json": "fed6fe11479b4f1d4c0d6b11e22b64b6f8782a1b337d404e5346a9749378c575",
+    "data/processed/full_metrics/invoice_summary.csv": "c73b5e4e883f3654fe36da1dcc77285ef09bf62bea785b6a8626c740ce58541b",
+    "data/processed/full_metrics/customer_month_summary.csv": "c054f41b58a078e26ff2b17e6e19cd1d8738bf9cc015e7de8989b73aa46a71a3",
+    "data/processed/full_metrics/product_summary.csv": "a2d9a336eacb590f9bc9b2f8401494b709e12b55908f57676d45e5b330bb4a2a",
+    "data/processed/full_metrics/positive_invoices.csv": "b0c21ea82ea149e6418093088a260e8ba875f71c4e9f14371305b1fce6f5b6f6",
+    "data/processed/full_metrics/customer_snapshot.csv": "4e954f78a8fda9f0c1c83902c5cdcaf381d24b7e0da3ff4757d05f4a6f670d5f",
+    "data/processed/full_metrics/customer_followup.csv": "77485fa7b9cbd6aff29af4c836e1212c1979cff3aeee435fea318f8798c51944",
+    "data/processed/full_metrics/segment_migration.csv": "c01842cdc9f527745b0627b5257c5247fab0a42c666f4f6f1ead75fee4d6a4c7",
+    "data/processed/full_metrics/cohort_activity.csv": "93909daf92ca1fe823c06dec35d728fc0f4c5e7a5af4028ed03989b8234bb302",
+    "outputs/full_segment_migration.csv": "c01842cdc9f527745b0627b5257c5247fab0a42c666f4f6f1ead75fee4d6a4c7",
+    "outputs/full_cohort_activity.csv": "93909daf92ca1fe823c06dec35d728fc0f4c5e7a5af4028ed03989b8234bb302",
+    "outputs/full_repeat_cohorts.csv": "f1a0d34627c9f44c38622bb5177d6a19d26a58e9d08500f2b17b085f8e87cdf4",
+    "outputs/full_monthly_financials.csv": "bf249c19a3c94becb63beceb4ddc3922c64c8c7c9fae7bb1459c2349244317c9",
+    "outputs/full_metrics_validation.json": "b1891d28d9e02c0920665c5b24ba7d19219b15f7e3180445c5cc5240086a6f5e",
+    "config/analysis.json": "eea5d299513d2bf48ec2ba4e1e07df404be9ba2c684a7cc549266c38bca2e41d",
+    "python/analyze.py": "d765dba19cc136579f731fc5d372933ab8a12649d0b5f47dee6946800f4b0b86",
+    "python/sensitivity.py": "a483938cf1136d7bcd18caa4fd80923c819dd60547df99d52d58e95e4bd81ccb",
+    "python/exposure.py": "3aed854439b0e0b9578078206532712e17fbf6d2743f4d9c502ede7e702cf6ce",
+    "sql/analyze_sensitivity.sql": "3393c1d5859b84b68ca5b931a6483ccca7b715e65697bbadb4e8464a0ffb2619",
+    "sql/analyze_exposure.sql": "b1fcdc155f01e1eef375b459e1129a80e4290fd560e2885719b52893f02d5875",
+    "tests/test_sensitivity.py": "b1687dedf7e2e62b4ccf0d4d30b58ca623f082411c41a005f503a30ea14cf9aa",
+    "tests/test_exposure.py": "16b571cb648cafbac47106e7656c16a8c35be1b3ec20296d57413db94d0e5589",
+    "outputs/full_threshold_summary.csv": "daf310458574893c5fd1fd7d47f82f2ab1c3ddaaf81661b8053b740a54fd0f0f",
+    "outputs/full_migration_sensitivity.csv": "f762a359715bb7211c45fb5eb9fd28b10f97ba8c585480d0dfe01eac226e7d27",
+    "outputs/full_customer_stability.csv": "81609189dc4a4daa042255f712918ffeca4a0b3babac17f96840beb0fd6ef608",
+    "outputs/full_review_support.csv": "c2c5879992d766742d8a3d8839c5948b76f390b35f9efae2ad27eb0c416aa9d6",
+    "outputs/full_cohort_review.csv": "4501ac9810ad50979f11ad8fc1d76cbbe1175ab0f74e63d156599250aa8e9f52",
+    "outputs/full_repeat_sensitivity.csv": "f358854969b32ea22b0a225a743796e92f234f0ef1fbc470269839999a6f6118",
+    "outputs/full_observed_exposure.csv": "a3c3725d57daa2ff054a629177ac96c4867729c3bf81131223f8761d202642e5",
+    "data/processed/full_analysis/sensitivity_customers.csv": "65521f84b59cc5a4f95fa09fca976e261971da690e67b602f36e3effd2980832",
+    "data/processed/full_analysis/review_candidates.csv": "04ab165c8c10920be255f6216ee97161ebd36a7741c405411dda2028b7d9e273",
+    "outputs/full_analysis_validation.json": "16298399ffedcca19a0f8f48a97f804ccc16ac95d67fe902ea73e65b715df898"
+  },
+  "tables": {
+    "monthly_financials": {
+      "schema_version": 1,
+      "file": "monthly_financials.csv",
+      "columns": [
+        {
+          "name": "month",
+          "type": "d",
+          "nullable": false,
+          "power_query_type": "type date"
+        },
+        {
+          "name": "country",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "canonical_lines",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "gross_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "credit_magnitude_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "net_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "excluded_signed_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        }
+      ],
+      "grain": [
+        "month",
+        "country"
+      ],
+      "scope_basis": "transaction_country",
+      "source": "outputs/full_monthly_financials.csv",
+      "source_sha256": "bf249c19a3c94becb63beceb4ddc3922c64c8c7c9fae7bb1459c2349244317c9",
+      "sha256": "bf249c19a3c94becb63beceb4ddc3922c64c8c7c9fae7bb1459c2349244317c9",
+      "row_count": 594,
+      "byte_identical_copy": true
+    },
+    "segment_migration": {
+      "schema_version": 1,
+      "file": "segment_migration.csv",
+      "columns": [
+        {
+          "name": "gross_segment",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "net_segment",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "gross_segment_share",
+          "type": "n",
+          "nullable": true,
+          "power_query_type": "type number"
+        }
+      ],
+      "grain": [
+        "gross_segment",
+        "net_segment"
+      ],
+      "scope_basis": "all_identified_customers",
+      "source": "outputs/full_segment_migration.csv",
+      "source_sha256": "c01842cdc9f527745b0627b5257c5247fab0a42c666f4f6f1ead75fee4d6a4c7",
+      "sha256": "c01842cdc9f527745b0627b5257c5247fab0a42c666f4f6f1ead75fee4d6a4c7",
+      "row_count": 6,
+      "byte_identical_copy": true
+    },
+    "cohort_activity": {
+      "schema_version": 1,
+      "file": "cohort_activity.csv",
+      "columns": [
+        {
+          "name": "cohort_month",
+          "type": "d",
+          "nullable": false,
+          "power_query_type": "type date"
+        },
+        {
+          "name": "activity_month",
+          "type": "d",
+          "nullable": false,
+          "power_query_type": "type date"
+        },
+        {
+          "name": "month_index",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "cohort_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "observability_state",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "active_customers",
+          "type": "i",
+          "nullable": true,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "activity_share",
+          "type": "n",
+          "nullable": true,
+          "power_query_type": "type number"
+        }
+      ],
+      "grain": [
+        "cohort_month",
+        "activity_month"
+      ],
+      "scope_basis": "all_purchase_customers",
+      "source": "outputs/full_cohort_activity.csv",
+      "source_sha256": "93909daf92ca1fe823c06dec35d728fc0f4c5e7a5af4028ed03989b8234bb302",
+      "sha256": "93909daf92ca1fe823c06dec35d728fc0f4c5e7a5af4028ed03989b8234bb302",
+      "row_count": 325,
+      "byte_identical_copy": true
+    },
+    "repeat_cohorts": {
+      "schema_version": 1,
+      "file": "repeat_cohorts.csv",
+      "columns": [
+        {
+          "name": "cohort_month",
+          "type": "d",
+          "nullable": false,
+          "power_query_type": "type date"
+        },
+        {
+          "name": "observed_purchase_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "complete_followup_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "incomplete_followup_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "repeat_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "repeat_90d_share",
+          "type": "n",
+          "nullable": true,
+          "power_query_type": "type number"
+        }
+      ],
+      "grain": [
+        "cohort_month"
+      ],
+      "scope_basis": "all_purchase_customers",
+      "source": "outputs/full_repeat_cohorts.csv",
+      "source_sha256": "f1a0d34627c9f44c38622bb5177d6a19d26a58e9d08500f2b17b085f8e87cdf4",
+      "sha256": "f1a0d34627c9f44c38622bb5177d6a19d26a58e9d08500f2b17b085f8e87cdf4",
+      "row_count": 25,
+      "byte_identical_copy": true
+    },
+    "threshold_summary": {
+      "schema_version": 1,
+      "file": "threshold_summary.csv",
+      "columns": [
+        {
+          "name": "scope",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "scenario",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "multiplier",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "purchase_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "monetary_score_changed_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "segment_changed_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "higher_segment_exits",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "gross_label_changes_vs_base",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "net_label_changes_vs_base",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "negative_net_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "net_rank_worsened_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "gross_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "credit_magnitude_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "net_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "segment_changed_share",
+          "type": "n",
+          "nullable": true,
+          "power_query_type": "type number"
+        }
+      ],
+      "grain": [
+        "scope",
+        "scenario"
+      ],
+      "scope_basis": "assigned_country_purchase_customers",
+      "source": "outputs/full_threshold_summary.csv",
+      "source_sha256": "daf310458574893c5fd1fd7d47f82f2ab1c3ddaaf81661b8053b740a54fd0f0f",
+      "sha256": "daf310458574893c5fd1fd7d47f82f2ab1c3ddaaf81661b8053b740a54fd0f0f",
+      "row_count": 9,
+      "byte_identical_copy": true
+    },
+    "migration_sensitivity": {
+      "schema_version": 1,
+      "file": "migration_sensitivity.csv",
+      "columns": [
+        {
+          "name": "scope",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "scenario",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "multiplier",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "minimum_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "gross_segment",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "net_segment",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "gross_segment_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "gross_row_share",
+          "type": "n",
+          "nullable": true,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "review_state",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "gross_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "credit_magnitude_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "net_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        }
+      ],
+      "grain": [
+        "scope",
+        "scenario",
+        "minimum_customers",
+        "gross_segment",
+        "net_segment"
+      ],
+      "scope_basis": "assigned_country_purchase_customers",
+      "source": "outputs/full_migration_sensitivity.csv",
+      "source_sha256": "f762a359715bb7211c45fb5eb9fd28b10f97ba8c585480d0dfe01eac226e7d27",
+      "sha256": "f762a359715bb7211c45fb5eb9fd28b10f97ba8c585480d0dfe01eac226e7d27",
+      "row_count": 243,
+      "byte_identical_copy": true
+    },
+    "customer_stability": {
+      "schema_version": 1,
+      "file": "customer_stability.csv",
+      "columns": [
+        {
+          "name": "scope",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "purchase_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "always_moved",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "never_moved",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "movement_sensitive",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "gross_label_sensitive",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "net_label_sensitive",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        }
+      ],
+      "grain": [
+        "scope"
+      ],
+      "scope_basis": "assigned_country_purchase_customers",
+      "source": "outputs/full_customer_stability.csv",
+      "source_sha256": "81609189dc4a4daa042255f712918ffeca4a0b3babac17f96840beb0fd6ef608",
+      "sha256": "81609189dc4a4daa042255f712918ffeca4a0b3babac17f96840beb0fd6ef608",
+      "row_count": 3,
+      "byte_identical_copy": true
+    },
+    "review_support": {
+      "schema_version": 1,
+      "file": "review_support.csv",
+      "columns": [
+        {
+          "name": "scope",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "scenario",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "minimum_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "nonempty_cells",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "supported_cells",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "nonempty_moved_cells",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "supported_moved_cells",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "customers_in_supported_moved_cells",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        }
+      ],
+      "grain": [
+        "scope",
+        "scenario",
+        "minimum_customers"
+      ],
+      "scope_basis": "assigned_country_purchase_customers",
+      "source": "outputs/full_review_support.csv",
+      "source_sha256": "c2c5879992d766742d8a3d8839c5948b76f390b35f9efae2ad27eb0c416aa9d6",
+      "sha256": "c2c5879992d766742d8a3d8839c5948b76f390b35f9efae2ad27eb0c416aa9d6",
+      "row_count": 27,
+      "byte_identical_copy": true
+    },
+    "cohort_review": {
+      "schema_version": 1,
+      "file": "cohort_review.csv",
+      "columns": [
+        {
+          "name": "scope",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "observed_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "complete_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "incomplete_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "repeat_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "positive_invoice_count",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "observed_days_min",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "observed_days_max",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "repeat_share",
+          "type": "n",
+          "nullable": true,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "first_month",
+          "type": "d",
+          "nullable": false,
+          "power_query_type": "type date"
+        },
+        {
+          "name": "source_start_cohort",
+          "type": "b",
+          "nullable": false,
+          "power_query_type": "type logical"
+        },
+        {
+          "name": "followup_state",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "meets_15",
+          "type": "b",
+          "nullable": false,
+          "power_query_type": "type logical"
+        },
+        {
+          "name": "meets_30",
+          "type": "b",
+          "nullable": false,
+          "power_query_type": "type logical"
+        },
+        {
+          "name": "meets_60",
+          "type": "b",
+          "nullable": false,
+          "power_query_type": "type logical"
+        },
+        {
+          "name": "mean_frequency",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        }
+      ],
+      "grain": [
+        "scope",
+        "first_month"
+      ],
+      "scope_basis": "assigned_country_purchase_customers",
+      "source": "outputs/full_cohort_review.csv",
+      "source_sha256": "4501ac9810ad50979f11ad8fc1d76cbbe1175ab0f74e63d156599250aa8e9f52",
+      "sha256": "4501ac9810ad50979f11ad8fc1d76cbbe1175ab0f74e63d156599250aa8e9f52",
+      "row_count": 75,
+      "byte_identical_copy": true
+    },
+    "repeat_sensitivity": {
+      "schema_version": 1,
+      "file": "repeat_sensitivity.csv",
+      "columns": [
+        {
+          "name": "scope",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "observed_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "complete_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "incomplete_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "repeat_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "repeat_share",
+          "type": "n",
+          "nullable": true,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "policy",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "excluded_observed_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "excluded_complete_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "excluded_incomplete_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "excluded_repeat_customers",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "repeat_share_change_pp",
+          "type": "n",
+          "nullable": true,
+          "power_query_type": "type number"
+        }
+      ],
+      "grain": [
+        "scope",
+        "policy"
+      ],
+      "scope_basis": "assigned_country_purchase_customers",
+      "source": "outputs/full_repeat_sensitivity.csv",
+      "source_sha256": "f358854969b32ea22b0a225a743796e92f234f0ef1fbc470269839999a6f6118",
+      "sha256": "f358854969b32ea22b0a225a743796e92f234f0ef1fbc470269839999a6f6118",
+      "row_count": 18,
+      "byte_identical_copy": true
+    },
+    "observed_exposure": {
+      "schema_version": 1,
+      "file": "observed_exposure.csv",
+      "columns": [
+        {
+          "name": "scope",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "first_cohort_year",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "customer_count",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "positive_invoice_count",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "mean_frequency",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "observed_days_min",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "observed_days_max",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        }
+      ],
+      "grain": [
+        "scope",
+        "first_cohort_year"
+      ],
+      "scope_basis": "assigned_country_purchase_customers",
+      "source": "outputs/full_observed_exposure.csv",
+      "source_sha256": "a3c3725d57daa2ff054a629177ac96c4867729c3bf81131223f8761d202642e5",
+      "sha256": "a3c3725d57daa2ff054a629177ac96c4867729c3bf81131223f8761d202642e5",
+      "row_count": 9,
+      "byte_identical_copy": true
+    },
+    "monthly_identification": {
+      "schema_version": 1,
+      "file": "monthly_identification.csv",
+      "columns": [
+        {
+          "name": "month",
+          "type": "d",
+          "nullable": false,
+          "power_query_type": "type date"
+        },
+        {
+          "name": "country",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "identification_state",
+          "type": "t",
+          "nullable": false,
+          "power_query_type": "type text"
+        },
+        {
+          "name": "canonical_lines",
+          "type": "i",
+          "nullable": false,
+          "power_query_type": "Int64.Type"
+        },
+        {
+          "name": "gross_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "credit_magnitude_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "net_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        },
+        {
+          "name": "excluded_signed_gbp",
+          "type": "n",
+          "nullable": false,
+          "power_query_type": "type number"
+        }
+      ],
+      "grain": [
+        "month",
+        "country",
+        "identification_state"
+      ],
+      "scope_basis": "transaction_country",
+      "source": "data/processed/full_metrics/customer_month_summary.csv",
+      "source_sha256": "c054f41b58a078e26ff2b17e6e19cd1d8738bf9cc015e7de8989b73aa46a71a3",
+      "sha256": "bc9fc1b6b5001ad223499bfe2f6741c60c13f092e6334c11558b580926125c08",
+      "row_count": 655,
+      "byte_identical_copy": false
+    }
+  },
+  "parameters": {
+    "metrics": {
+      "state": "Frozen for initial implementation; changes require a version and sensitivity record",
+      "version": 2,
+      "version_reason": "Specify segment sum boundaries, dominant-positive-gross country assignment and invoice timestamp conflict rules before the first customer comparison; original RFM bins and financial scope unchanged",
+      "currency": "GBP",
+      "observation_start": "2009-12-01T00:00:00",
+      "rfm_cutoff_exclusive": "2011-12-10T00:00:00",
+      "recency_reference_date": "2011-12-10",
+      "repeat_followup_days": 90,
+      "recency_upper_days_best_to_worst": [
+        30,
+        90,
+        180,
+        365
+      ],
+      "frequency_upper_invoices_worst_to_best": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "monetary_upper_gbp_worst_to_best": [
+        250,
+        1000,
+        2500,
+        10000
+      ],
+      "segment_score_minimum": {
+        "Higher RFM": 12,
+        "Middle RFM": 9,
+        "Lower RFM": 3
+      },
+      "assigned_country": "Largest eligible positive gross value in the frozen window; equal values use ascending country label; credit-only customers use Unavailable",
+      "invoice_timestamp_policy": "Distinct trimmed positive invoice token per customer; first timestamp defines repeat ordering; last positive line timestamp defines recency; report multi-timestamp tokens",
+      "threshold_sensitivity_multipliers": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "minimum_review_customers": 30,
+      "minimum_review_customers_sensitivity": [
+        15,
+        30,
+        60
+      ],
+      "credit_matching": "Unmatched; no original-order linkage is inferred",
+      "cross_sheet_overlap_policy": "Preserve all raw rows; for each exact eight-field raw record plus within-sheet occurrence number, retain the later configured worksheet occurrence and mark earlier copies excluded from analysis",
+      "within_sheet_identical_rows": "Retain; source-line identifiers distinguish occurrences"
+    },
+    "analysis": {
+      "version": 1,
+      "purpose": "Gate C descriptive robustness analysis; base metric contract and customer population remain unchanged",
+      "scoring_sensitivity": "Multiply all recency, frequency and monetary upper boundaries jointly by each configured threshold_sensitivity_multiplier; gross and net share each scenario's boundaries; keep segment-score sums fixed",
+      "boundary_arithmetic": "Exact decimal multiplication without integer rounding; inclusive upper boundaries; integer observations compare directly against fractional boundaries",
+      "review_group": "Gross-segment by net-segment cell within ALL or assigned-country scope; compare cell customer count with configured minimum_review_customers_sensitivity using inclusive >=",
+      "review_states": [
+        "empty",
+        "below_minimum",
+        "meets_minimum"
+      ],
+      "review_interpretation": "A group-size safeguard for investigation display; not statistical significance, profitability, campaign suitability or permission to hide factual counts",
+      "country_scopes": [
+        "ALL",
+        "United Kingdom",
+        "France"
+      ],
+      "cohort_review_denominator": "Customers with complete individual 90-day follow-up; show original cohort size, incomplete customers and whether the whole observed cohort is eligible",
+      "ambiguity_sensitivity": "Exclude simultaneous-first or multi-timestamp-invoice customers only in separately labeled diagnostic comparisons; preserve base eligibility and outcomes",
+      "source_start_sensitivity": "Exclude the entire first observed calendar-month cohort in a separately labeled diagnostic comparison; this does not resolve left censoring in other cohorts",
+      "exposure_interpretation": "Full-window frequency has unequal observed exposure; end-of-window RFM must not be used as a prospective validation of earlier 90-day repeat outcomes"
+    }
+  },
+  "scope_values": {
+    "ALL": "All assigned countries; never combine with individual country rows",
+    "United Kingdom": "Assigned United Kingdom",
+    "France": "Assigned France"
+  },
+  "missing_value_policy": "Empty CSV fields are null, never zero; future activity rows remain absent; partial final-month activity stays null",
+  "limitations": [
+    "Analyst-selected shared thresholds describe observed value; no profit, predicted LTV, physical returns or intervention effects are estimated.",
+    "Migration-cell minimum sizes are review safeguards; below-minimum counts remain visible and are not zeroed or treated as statistical significance.",
+    "Full-window RFM labels have unequal exposure and use information later than early repeat windows; no prospective validation is claimed.",
+    "Excluding the source-start cohort cannot eliminate left censoring in remaining cohorts.",
+    "Ambiguity exclusions are labeled diagnostics, not replacements for the base eligible-repeat definition.",
+    "Assigned-country customer scopes differ from transaction-country financial scopes.",
+    "Excel refresh, rendering and interactions remain unvalidated; Gate D has not authorized final CV measurement.",
+    "Sample analysis is feasibility evidence only; findings use the full scope."
+  ]
+}

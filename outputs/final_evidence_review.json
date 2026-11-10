@@ -1,0 +1,104 @@
+{
+  "status": "Passed",
+  "gate": "E",
+  "reviewed_at_utc": "2026-10-23T15:15:51.025947+00:00",
+  "verifier": "Independent review agent a73d7c60d33baffc3c8a946cf7540f3dc; owning agent compared fresh measurements with independent audit and approved release",
+  "gate_d_signoff_sha256": "83e088431dd7e92344ecdb8bea3623c47f887cb1a8f099a42298871c0c6d3f5a",
+  "measurement_output_sha256": "98b2bc79fb1cd731f2fdeb4854b3b382e5a5ba7249e68167a58e81f8b31ab90a",
+  "independent_audit_sha256": "830ad7a79d2ec3a9d3b1d63c29fda08d2acb7d984f2cf623501b677406ce93a1",
+  "checks": {
+    "gate_d_precedes_measurement": true,
+    "frozen_artifacts_unchanged": 86,
+    "fresh_original_workbook_digest_matches_import": true,
+    "independent_audit_counts": {
+      "signed": 19,
+      "upstream": 57,
+      "prepared_inputs": 12,
+      "counts_overlap": true
+    },
+    "independent_summary_rows_compared": 9,
+    "independent_migration_cells_compared": 243,
+    "independent_support_rows_compared": 27,
+    "raw_customer_country_scope_comparisons": 3,
+    "repeat_numerators_denominators_match": true,
+    "python_tests_normal": 107,
+    "python_tests_optimized": 107,
+    "actual_native_definitions": {
+      "queries": 9,
+      "pivots": 3,
+      "slicer_controls": 2
+    },
+    "cv_wording": "Three original bullets approved; purchase-history and observed-repeat scope clarified per independent review"
+  },
+  "claims": [
+    {
+      "claim_id": "R2-01",
+      "state": "CV-ready",
+      "selected_for_cv": true,
+      "state_history": [
+        {
+          "state": "Measured",
+          "at_utc": "2026-10-23T15:08:04.300916+00:00"
+        },
+        {
+          "state": "Verified",
+          "at_utc": "2026-10-23T15:15:51.025947+00:00"
+        },
+        {
+          "state": "CV-ready",
+          "at_utc": "2026-10-23T15:15:51.025947+00:00"
+        }
+      ]
+    },
+    {
+      "claim_id": "R2-02",
+      "state": "CV-ready",
+      "selected_for_cv": true,
+      "state_history": [
+        {
+          "state": "Measured",
+          "at_utc": "2026-10-23T15:08:04.300916+00:00"
+        },
+        {
+          "state": "Verified",
+          "at_utc": "2026-10-23T15:15:51.025947+00:00"
+        },
+        {
+          "state": "CV-ready",
+          "at_utc": "2026-10-23T15:15:51.025947+00:00"
+        }
+      ]
+    },
+    {
+      "claim_id": "R2-03",
+      "state": "CV-ready",
+      "selected_for_cv": true,
+      "state_history": [
+        {
+          "state": "Measured",
+          "at_utc": "2026-10-23T15:08:04.300916+00:00"
+        },
+        {
+          "state": "Verified",
+          "at_utc": "2026-10-23T15:15:51.025947+00:00"
+        },
+        {
+          "state": "CV-ready",
+          "at_utc": "2026-10-23T15:15:51.025947+00:00"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Independent audit uses separate aggregation after raw-reference input validation; shared validators are not an independent second implementation of every preparation rule.",
+    "86 is the owning runner frozen-artifact union; the independent reviewer separately verified overlapping 19 signed,57 upstream,12 prepared inputs.",
+    "Native refresh, owner acceptance and printed renders remain Gate D evidence; no fresh Excel UI, refresh, screenshot or source download was performed for Gate E.",
+    "Descriptive historical evidence only; no physical-return, profit, predicted LTV, campaign effect, achieved retention or cloud publication claim."
+  ],
+  "release_decision": "Accept R2 local portfolio release through Gates A\u2013E; F1 unlocked at preserved foundation but remains Deferred until requested; cloud publication outside approval",
+  "release_document_hashes": {
+    "evidence_register.md": "e4f285ce0cbd3c3c3cb8dfaddcf95484fc0acd06aa5394948c757a5f5e282466",
+    "cv_bullets.md": "8cc2c303942f0348a8e4136de41b74f8ddababa3de839722831045e1e5c6fa6e",
+    "completion.md": "d0b4fc59f733b0dcc7e9a2b3b8b6f98ad6a222d29e70cd19bdaf47bf10dbed33"
+  }
+}

@@ -1,0 +1,4 @@
+scope,purchase_customers,always_moved,never_moved,movement_sensitive,gross_label_sensitive,net_label_sensitive
+ALL,5852,4,5792,56,825,820
+France,93,0,91,2,8,10
+United Kingdom,5334,3,5281,50,757,752

@@ -1,0 +1,99 @@
+{
+  "status": "Passed",
+  "purpose": "Gate A raw source import; analytical totals pending overlap policy",
+  "verified_at_utc": "2026-10-22T19:21:06.662171+00:00",
+  "scope": "sample",
+  "source_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "source_bytes": 45622278,
+  "config_sha256": "d2d3107e2e18bb513fc4d8780d4de9c781883744e94c30d841a1081c47c38942",
+  "versions": {
+    "python": "3.14.7",
+    "duckdb": "2.0.0",
+    "openpyxl": "3.1.5"
+  },
+  "source_rows_by_sheet": {
+    "Year 2009-2010": 1000,
+    "Year 2010-2011": 1000
+  },
+  "source_profile": [
+    {
+      "scope": "All worksheets",
+      "rows": 2000,
+      "first_timestamp": "2009-12-01 07:45:00",
+      "last_timestamp": "2010-12-01 12:43:00",
+      "missing_customer_rows": 7,
+      "missing_description_rows": 2,
+      "negative_quantity_rows": 56,
+      "zero_quantity_rows": 0,
+      "negative_price_rows": 0,
+      "zero_price_rows": 5,
+      "c_prefixed_rows": 52,
+      "c_positive_quantity_rows": 0,
+      "non_c_negative_quantity_rows": 4,
+      "distinct_invoice_tokens": 126,
+      "distinct_customer_tokens": 94,
+      "raw_signed_value_gbp": "45968.980000"
+    },
+    {
+      "scope": "Year 2009-2010",
+      "rows": 1000,
+      "first_timestamp": "2009-12-01 07:45:00",
+      "last_timestamp": "2009-12-01 12:22:00",
+      "missing_customer_rows": 6,
+      "missing_description_rows": 1,
+      "negative_quantity_rows": 46,
+      "zero_quantity_rows": 0,
+      "negative_price_rows": 0,
+      "zero_price_rows": 4,
+      "c_prefixed_rows": 42,
+      "c_positive_quantity_rows": 0,
+      "non_c_negative_quantity_rows": 4,
+      "distinct_invoice_tokens": 60,
+      "distinct_customer_tokens": 49,
+      "raw_signed_value_gbp": "21462.730000"
+    },
+    {
+      "scope": "Year 2010-2011",
+      "rows": 1000,
+      "first_timestamp": "2010-12-01 08:26:00",
+      "last_timestamp": "2010-12-01 12:43:00",
+      "missing_customer_rows": 1,
+      "missing_description_rows": 1,
+      "negative_quantity_rows": 10,
+      "zero_quantity_rows": 0,
+      "negative_price_rows": 0,
+      "zero_price_rows": 1,
+      "c_prefixed_rows": 10,
+      "c_positive_quantity_rows": 0,
+      "non_c_negative_quantity_rows": 0,
+      "distinct_invoice_tokens": 66,
+      "distinct_customer_tokens": 48,
+      "raw_signed_value_gbp": "24506.250000"
+    }
+  ],
+  "source_to_database_digest": "0b282684057bfdfb399b96d22a1cbbfb0a410614faf7d93242761e48ce30a9f3",
+  "all_imported_fields_preserved": true,
+  "independent_python_raw_signed_value_gbp": "45968.98",
+  "cross_sheet_overlap": {
+    "shared_full_record_groups": 0,
+    "cross_sheet_matched_occurrences": 0,
+    "rows_in_shared_groups": 0
+  },
+  "within_sheet_duplicates": [
+    {
+      "source_sheet": "Year 2009-2010",
+      "excess_identical_rows": 28
+    },
+    {
+      "source_sheet": "Year 2010-2011",
+      "excess_identical_rows": 23
+    }
+  ],
+  "limitations": [
+    "Sample takes first configured rows of each sheet; it is not representative.",
+    "Raw signed value includes exceptions and overlapping worksheet records; it is not net merchandise sales.",
+    "All original rows, including missing customers and duplicates, are retained.",
+    "Empty Excel cells map to empty strings; original cell formatting remains in the source workbook.",
+    "Output evidence describes the last successful import; rerun after source or code changes."
+  ]
+}

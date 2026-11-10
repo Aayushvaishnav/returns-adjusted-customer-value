@@ -1,0 +1,8 @@
+inclusion_state,line_class,customer_state,rows,signed_gbp
+included,discount,eligible,3,-55.500000
+included,invalid_price,unidentified,3,0.000000
+included,missing_description,unidentified,2,0.000000
+included,positive_merchandise,eligible,1935,46257.990000
+included,positive_merchandise,unidentified,2,1.400000
+included,recorded_credit,eligible,48,-727.330000
+included,shipping,eligible,7,492.420000

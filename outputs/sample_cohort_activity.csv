@@ -1,0 +1,15 @@
+cohort_month,activity_month,month_index,cohort_customers,observability_state,active_customers,activity_share
+2009-12-01,2009-12-01,0,35,complete_month,35,1.0
+2009-12-01,2010-01-01,1,35,complete_month,0,0.0
+2009-12-01,2010-02-01,2,35,complete_month,0,0.0
+2009-12-01,2010-03-01,3,35,complete_month,0,0.0
+2009-12-01,2010-04-01,4,35,complete_month,0,0.0
+2009-12-01,2010-05-01,5,35,complete_month,0,0.0
+2009-12-01,2010-06-01,6,35,complete_month,0,0.0
+2009-12-01,2010-07-01,7,35,complete_month,0,0.0
+2009-12-01,2010-08-01,8,35,complete_month,0,0.0
+2009-12-01,2010-09-01,9,35,complete_month,0,0.0
+2009-12-01,2010-10-01,10,35,complete_month,0,0.0
+2009-12-01,2010-11-01,11,35,complete_month,0,0.0
+2009-12-01,2010-12-01,12,35,incomplete_month,,
+2010-12-01,2010-12-01,0,43,incomplete_month,,

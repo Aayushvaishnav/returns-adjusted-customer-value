@@ -1,0 +1,1 @@
+{"status": "Passed", "evidence": "/mnt/c/Users/Aayush/my_files/da_projects/projects/r2-returns-adjusted-customer-value/outputs/sample_metrics_validation.json", "table_counts": {"invoice_summary": 126, "customer_month_summary": 99, "product_summary": 1279, "positive_invoices": 99, "customer_snapshot": 90, "customer_followup": 78, "segment_migration": 1, "cohort_activity": 14}}

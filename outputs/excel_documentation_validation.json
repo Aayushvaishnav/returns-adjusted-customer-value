@@ -1,0 +1,11 @@
+{
+  "status": "Passed",
+  "verified_at_utc": "2026-10-23T05:44:24.940933+00:00",
+  "documents": 19,
+  "local_links": 343,
+  "broken_links": [],
+  "active_projects": [
+    "projects/r2-returns-adjusted-customer-value"
+  ],
+  "final_cv_files_absent": true
+}

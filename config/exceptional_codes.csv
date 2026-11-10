@@ -1,0 +1,27 @@
+code,classification,reason,evidence,policy
+POST,shipping,Analyst non-merchandise code review,full_stock_code_profile.csv:  | POSTAGE,Exclude from merchandise; retain signed financial value
+DOT,shipping,Analyst non-merchandise code review,full_stock_code_profile.csv:  | DOTCOM POSTAGE,Exclude from merchandise; retain signed financial value
+D,discount,Analyst non-merchandise code review,full_stock_code_profile.csv: Discount | Discount,Exclude from merchandise; retain signed financial value
+BANK CHARGES,finance,Analyst non-merchandise code review,full_stock_code_profile.csv:  Bank Charges | Bank Charges,Exclude from merchandise; retain signed financial value
+AMAZONFEE,marketplace_fee,Analyst non-merchandise code review,full_stock_code_profile.csv: AMAZON FEE | AMAZON FEE,Exclude from merchandise; retain signed financial value
+CRUK,commission,Analyst non-merchandise code review,full_stock_code_profile.csv: CRUK Commission | CRUK Commission,Exclude from merchandise; retain signed financial value
+B,bad_debt,Analyst non-merchandise code review,full_stock_code_profile.csv: Adjust bad debt | Adjust bad debt,Exclude from merchandise; retain signed financial value
+M,manual_adjustment,Analyst non-merchandise code review,full_stock_code_profile.csv: Manual | Manual,Exclude from merchandise; retain signed financial value
+m,manual_adjustment,Analyst non-merchandise code review,full_stock_code_profile.csv: Manual | Manual,Exclude from merchandise; retain signed financial value
+ADJUST,manual_adjustment,Analyst non-merchandise code review,full_stock_code_profile.csv: Adjustment by Peter on 24/05/2010 1 | Adjustment by john on 26/01/2010 17,Exclude from merchandise; retain signed financial value
+ADJUST2,manual_adjustment,Analyst non-merchandise code review,full_stock_code_profile.csv: Adjustment by Peter on Jun 25 2010  | Adjustment by Peter on Jun 25 2010 ,Exclude from merchandise; retain signed financial value
+S,sample,Analyst non-merchandise code review,full_stock_code_profile.csv: SAMPLES | SAMPLES,Exclude from merchandise; retain signed financial value
+TEST001,test,Analyst non-merchandise code review,full_stock_code_profile.csv: This is a test product. | This is a test product.,Exclude from merchandise; retain signed financial value
+TEST002,test,Analyst non-merchandise code review,full_stock_code_profile.csv:  | This is a test product.,Exclude from merchandise; retain signed financial value
+GIFT,unresolved,Analyst non-merchandise code review,full_stock_code_profile.csv:  | ,Exclude from merchandise; retain signed financial value
+gift_0001_10,voucher,Analyst non-merchandise code review,full_stock_code_profile.csv:  | Dotcomgiftshop Gift Voucher £10.00,Exclude from merchandise; retain signed financial value
+gift_0001_20,voucher,Analyst non-merchandise code review,full_stock_code_profile.csv:  | to push order througha s stock was ,Exclude from merchandise; retain signed financial value
+gift_0001_30,voucher,Analyst non-merchandise code review,full_stock_code_profile.csv:  | Dotcomgiftshop Gift Voucher £30.00,Exclude from merchandise; retain signed financial value
+gift_0001_40,voucher,Analyst non-merchandise code review,full_stock_code_profile.csv:  | Dotcomgiftshop Gift Voucher £40.00,Exclude from merchandise; retain signed financial value
+gift_0001_50,voucher,Analyst non-merchandise code review,full_stock_code_profile.csv:  | Dotcomgiftshop Gift Voucher £50.00,Exclude from merchandise; retain signed financial value
+gift_0001_60,voucher,Analyst non-merchandise code review,full_stock_code_profile.csv:  | ,Exclude from merchandise; retain signed financial value
+gift_0001_70,voucher,Analyst non-merchandise code review,full_stock_code_profile.csv:  | Dotcomgiftshop Gift Voucher £70.00,Exclude from merchandise; retain signed financial value
+gift_0001_80,voucher,Analyst non-merchandise code review,full_stock_code_profile.csv:  | Dotcomgiftshop Gift Voucher £80.00,Exclude from merchandise; retain signed financial value
+gift_0001_90,voucher,Analyst non-merchandise code review,full_stock_code_profile.csv:  | ,Exclude from merchandise; retain signed financial value
+C2,shipping,Analyst carriage review,full_stock_code_profile.csv: CARRIAGE; 279 described rows,Exclude from merchandise; retain signed financial value
+C3,unresolved,No confident merchandise identification,full_stock_code_profile.csv: one blank zero-value row,Exclude from merchandise; retain signed financial value
